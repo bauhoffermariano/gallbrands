@@ -86,36 +86,7 @@
             }
         }
     }
-    .cta__btn{
-        width: 5rem;
-        outline: 0;
-        border:0;
-        cursor: pointer;
-        text-decoration: none;
-        position: relative;
-        color: #000;
-        background: v.$blanco;
-        padding: .5rem 0;
-        font-size: .6rem;
-        background-color: v.$colorSecundario;
-        font-weight: 700;
-        border-radius: .2rem .5rem .2rem .5rem;
-        
-        
-        transition: all 0.2s;
-        &:hover{
-            background-color: v.$blanco;
-            border-radius: .5rem .2rem .5rem .2rem;
-        }
-
-        @include m.tablet{
-            width: 8rem;
-            padding: .8rem 0;
-            font-size: .8rem;
-            font-weight: 800;
-        }
-        
-    }
+    
     .cta__mask{
         position: absolute;
         inset: 0;
@@ -124,5 +95,35 @@
         backdrop-filter: blur(1.5px);
         -webkit-backdrop-filter: blur(1.5px);
     }
+}
+.cta__btn{
+    width: 5rem;
+    outline: 0;
+    border:0;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    color: #000;
+    background: v.$blanco;
+    padding: .5rem 0;
+    font-size: .6rem;
+    background-color: v.$colorSecundario;
+    font-weight: 700;
+    border-radius: .2rem .5rem .2rem .5rem;
+    
+    
+    transition: all 0.2s;
+    &:hover{
+        background-color: v.$blanco;
+        border-radius: .5rem .2rem .5rem .2rem;
+    }
+
+    @include m.tablet{
+        width: 8rem;
+        padding: .8rem 0;
+        font-size: .8rem;
+        font-weight: 800;
+    }
+    
 }
 
