@@ -1,0 +1,99 @@
+@use "variables" as v;
+@use "mixins" as m;
+
+.cta{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    // max-width: $mobile;
+    height: 4rem;
+    padding: 0 1rem;
+    font-family: 'rajdhani', sans-serif;
+    background-color: v.$blancoTransparent;
+    // background-color: v.$gris1;
+
+
+    @include m.flexbox(space-between, center, row){}
+    @include m.centrarHorizontal();
+    @include m.tablet{
+        height: 5rem;
+        justify-content: space-around;
+    }
+
+    @include m.desktopSmall{
+        height: 5rem;
+        justify-content: space-around;
+
+    }
+    @include m.desktop{
+        height: 6.5rem;
+        justify-content: space-evenly;
+
+    }
+
+    .cta__logo{
+        height: auto;
+        width: 3rem;
+        @include m.tablet{
+            width: 4rem;
+        }
+        @include m.desktopSmall{
+            width: 4rem;
+        }
+        @include m.desktop{
+            width: 5rem;
+        }
+    }
+    
+
+    .count__container{
+        position: relative;
+        @include m.flexbox(center, center, row){}
+        gap: .5rem;
+        font-family: 'rajdhani', sans-serif;
+        color: v.$blanco;
+
+        border-top: solid v.$blanco 1px;
+        border-bottom: solid v.$blanco 1px;
+        padding: .5rem;
+    
+        & > div{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 2fr 1fr;
+            justify-items: end;
+            align-items: center;
+
+            & span[class*="number"] {
+                font-size: 1rem;
+                @include m.tablet{
+                    font-size: 1.4rem;
+                }
+                @include desktopSmall{
+                    font-size: 2rem;
+                }
+            }
+            & span[class*="text"] {
+                font-size: .5rem;
+                justify-self: center;
+                @include m.tablet{
+                    font-size: .7rem;
+                }
+                @include desktopSmall{
+                    font-size: 1rem;    
+                }
+            }
+        }
+    }
+    .cta__btn{
+        width: 80px;
+        background-color: transparent;
+        border: solid v.$blanco 3px;
+        color: rgb(0, 0, 0);
+        font-size: .8rem;
+        background-color: v.$colorSecundario;
+        font-family: "raleway";
+        font-weight: lighter;
+        }   
+}
+

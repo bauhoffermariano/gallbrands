@@ -1,0 +1,100 @@
+@use "variables" as v;
+
+@mixin flexbox($justify, $align, $direction) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+    
+    @content;
+}
+
+@mixin centrarHorizontal(){
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@mixin mobileSmall {
+    @media (min-width: v.$mobileSmall){
+        @content;  
+    }
+}
+@mixin mobile {
+    @media (min-width: v.$mobile){
+        @content;  
+    }
+}
+@mixin tabletSmall {
+    @media (min-width: v.$tabletSmall) {
+        @content;        
+    }
+}
+@mixin tablet {
+    @media (min-width: v.$tablet) {
+        @content;        
+    }
+}
+@mixin desktopSmall{
+    @media (min-width: v.$desktopSmall) {
+        @content;  
+    }
+}
+@mixin desktop{
+    @media (min-width: v.$desktop) {
+        @content;  
+    }
+}
+
+//HOVER.CSS
+// prefix declarations
+@mixin prefixed($property, $value) {
+    @if $webkit == true {
+      -webkit-#{$property}: #{$value};
+    }
+  
+    @if $moz == true {
+      -moz-#{$property}: #{$value};
+    }
+  
+    @if $ms == true {
+      -ms-#{$property}: #{$value};
+    }
+  
+    @if $o == true {
+      -o-#{$property}: #{$value};
+    }
+  
+    #{$property}: #{$value};
+  }
+  
+  // prefix keyframes
+  @mixin keyframes($name) {
+    @if $webkit == true {
+      @-webkit-keyframes #{$name} {
+        @content;
+      }
+    }
+  
+    @if $moz == true {
+      @-moz-keyframes #{$name} {
+        @content;
+      }
+    }
+  
+    @if $ms == true {
+      @-ms-keyframes #{$name} {
+        @content;
+      }
+    }
+  
+    @if $o == true {
+      @-o-keyframes #{$name} {
+        @content;
+      }
+    }
+  
+    @keyframes #{$name} {
+      @content;
+    }
+  }
+  

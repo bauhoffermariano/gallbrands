@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/hover.css" media="all">
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Countdown Timer</title>
+  </head>
+  <body>
+    <div class="main__container">
+      <div class="cta hvr-shadow-radial">
+        <div class="cta__logo img__container">
+          <img src="assets/pngs/logo.svg" alt="Logo" />
+        </div>
+        <div class="count__container" id="countEnd" style="display: none;">
+          <p>termino pa</p>
+        </div>
+        <div class="count__container" id="countRun">
+          <div class="count__days">
+            <span class="days__number" id="days"></span>
+            <span class="days__text">dias</span>
+          </div>
+          <div class="count__hours">
+            <span class="hour__number" id="hours"></span>
+            <span class="hours__text">hrs</span>
+          </div>
+          <div class="count__minutes">
+            <span class="minutes__number" id="minutes"></span>
+            <span class="minutes__text">min</span>
+          </div>
+          <div class="count__seconds">
+            <span class="seconds__number" id="seconds"></span>
+            <span class="seconds__text">seg</span>
+          </div>
+        </div>
+        <div class="cta__cta">
+          <button class="cta__btn" id="ctaBtn">consultá acá
+          </button>
+          <!-- <a href="#" class="button">Checkout</a> -->
+
+        </div>
+      </div>
+    </div>
+   
+
+    <script src="js/count.js"></script>
+  </body>
+</html>
