@@ -3,20 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/hover.css" media="all">
+    <!-- <link rel="stylesheet" href="css/hover.css" media="all"> -->
     <link rel="stylesheet" href="css/index.css" />
     <title>Countdown Timer</title>
   </head>
   <body>
     <div class="main__container">
-      <div class="cta hvr-shadow-radial">
+      <div class="cta">
         <div class="cta__logo img__container">
           <img src="assets/pngs/logo.svg" alt="Logo" />
         </div>
         <div class="count__container" id="countEnd" style="display: none;">
           <p>termino papito</p>
         </div>
-        <div class="count__container" id="countRun">
+        <div class="count__container css3-shadow" id="countRun">
           <div class="count__days">
             <span class="days__number" id="days"></span>
             <span class="days__text">dias</span>
@@ -35,15 +35,16 @@
           </div>
         </div>
         <div class="cta__cta">
-          <button class="cta__btn" id="ctaBtn">consultá acá
+          <button class="cta__btn" id="ctaBtn">AGENDATE
           </button>
           <!-- <a href="#" class="button">Checkout</a> -->
 
         </div>
+        <div class="cta__mask"></div>
       </div>
     </div>
-   
-
+    <canvas class="background"></canvas>
+    <script src="js/particles.js"></script>
     <script src="js/count.js"></script>
   </body>
 </html>

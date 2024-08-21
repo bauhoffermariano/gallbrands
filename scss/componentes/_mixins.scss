@@ -1,100 +1,185 @@
 @use "variables" as v;
 
 @mixin flexbox($justify, $align, $direction) {
-    display: flex;
-    justify-content: $justify;
-    align-items: $align;
-    flex-direction: $direction;
-    
-    @content;
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+
+  @content;
 }
 
-@mixin centrarHorizontal(){
-    left: 50%;
-    transform: translateX(-50%);
+@mixin centrarHorizontal() {
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 @mixin mobileSmall {
-    @media (min-width: v.$mobileSmall){
-        @content;  
-    }
+  @media (min-width: v.$mobileSmall) {
+    @content;
+  }
 }
 @mixin mobile {
-    @media (min-width: v.$mobile){
-        @content;  
-    }
+  @media (min-width: v.$mobile) {
+    @content;
+  }
 }
 @mixin tabletSmall {
-    @media (min-width: v.$tabletSmall) {
-        @content;        
-    }
+  @media (min-width: v.$tabletSmall) {
+    @content;
+  }
 }
 @mixin tablet {
-    @media (min-width: v.$tablet) {
-        @content;        
-    }
+  @media (min-width: v.$tablet) {
+    @content;
+  }
 }
-@mixin desktopSmall{
-    @media (min-width: v.$desktopSmall) {
-        @content;  
-    }
+@mixin desktopSmall {
+  @media (min-width: v.$desktopSmall) {
+    @content;
+  }
 }
-@mixin desktop{
-    @media (min-width: v.$desktop) {
-        @content;  
-    }
+@mixin desktop {
+  @media (min-width: v.$desktop) {
+    @content;
+  }
 }
 
+
+@mixin shadow-radial(){
+  &::before, &::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 100%;
+    height: 5px;
+    opacity: 0;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+  }
+  &::before {
+    bottom: 100%;
+    background: -webkit-radial-gradient(50% 150%, ellipse, rgba(255, 255, 255, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
+    background: radial-gradient(ellipse at 50% 150%, rgba(255, 255, 255, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
+  }
+  &::after {
+    top: 100%;
+    background: -webkit-radial-gradient(50% -50%, ellipse, rgba(255, 255, 255, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
+    background: radial-gradient(ellipse at 50% -50%, rgba(255, 255, 255, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
+  }
+}
+
+// .hvr-shadow-radial:before, .hvr-shadow-radial:after {
+//   position: absolute;
+//   content: "";
+//   left: 0;
+//   width: 100%;
+//   height: 5px;
+//   opacity: 0;
+//   -webkit-transition-duration: 0.3s;
+//   transition-duration: 0.3s;
+//   -webkit-transition-property: opacity;
+//   transition-property: opacity;
+// }
+
+.hvr-shadow-radial:before {
+  bottom: 100%;
+  background: -webkit-radial-gradient(50% 150%, ellipse, rgba(255, 255, 255, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
+  background: radial-gradient(ellipse at 50% 150%, rgba(255, 255, 255, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
+}
+.hvr-shadow-radial:after {
+  top: 100%;
+  background: -webkit-radial-gradient(50% -50%, ellipse, rgba(255, 255, 255, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
+  background: radial-gradient(ellipse at 50% -50%, rgba(255, 255, 255, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
+}
+.hvr-shadow-radial:hover:before, .hvr-shadow-radial:focus:before, .hvr-shadow-radial:active:before, .hvr-shadow-radial:hover:after, .hvr-shadow-radial:focus:after, .hvr-shadow-radial:active:after {
+  opacity: 1;
+}
+
+// @mixin radial-shadow-top($color1: white, $color2: white, $color3: white, $color4:white) {
+//   .shadow-radial:before {
+//     content:'';
+//     bottom: 100%;
+//     background: -webkit-radial-gradient(
+//       50% 150%,
+//       ellipse,
+//       $color1 0%,
+//       $color2 80%
+//     );
+//     background: radial-gradient(
+//       ellipse at 50% 150%,
+//       $color3 0%,
+//       $color4 80%
+//     );
+//   }
+// }
+// @mixin radial-shadow-bottom($color1, $color2, $color3, $color4) {
+//   .shadow-radial:after {
+//     top: 100%;
+//     background: -webkit-radial-gradient(
+//       50% -50%,
+//       ellipse,
+//       $color1 0%,
+//       $color2 80%
+//     );
+//     background: radial-gradient(
+//       ellipse at 50% -50%,
+//       $color3 0%,
+//       $color4 80%
+//     );
+//   }
+// }
 //HOVER.CSS
 // prefix declarations
-@mixin prefixed($property, $value) {
-    @if $webkit == true {
-      -webkit-#{$property}: #{$value};
-    }
-  
-    @if $moz == true {
-      -moz-#{$property}: #{$value};
-    }
-  
-    @if $ms == true {
-      -ms-#{$property}: #{$value};
-    }
-  
-    @if $o == true {
-      -o-#{$property}: #{$value};
-    }
-  
-    #{$property}: #{$value};
-  }
-  
-  // prefix keyframes
-  @mixin keyframes($name) {
-    @if $webkit == true {
-      @-webkit-keyframes #{$name} {
-        @content;
-      }
-    }
-  
-    @if $moz == true {
-      @-moz-keyframes #{$name} {
-        @content;
-      }
-    }
-  
-    @if $ms == true {
-      @-ms-keyframes #{$name} {
-        @content;
-      }
-    }
-  
-    @if $o == true {
-      @-o-keyframes #{$name} {
-        @content;
-      }
-    }
-  
-    @keyframes #{$name} {
-      @content;
-    }
-  }
-  
+// @mixin prefixed($property, $value) {
+//     @if $webkit == true {
+//       -webkit-#{$property}: #{$value};
+//     }
+
+//     @if $moz == true {
+//       -moz-#{$property}: #{$value};
+//     }
+
+//     @if $ms == true {
+//       -ms-#{$property}: #{$value};
+//     }
+
+//     @if $o == true {
+//       -o-#{$property}: #{$value};
+//     }
+
+//     #{$property}: #{$value};
+//   }
+
+//   // prefix keyframes
+//   @mixin keyframes($name) {
+//     @if $webkit == true {
+//       @-webkit-keyframes #{$name} {
+//         @content;
+//       }
+//     }
+
+//     @if $moz == true {
+//       @-moz-keyframes #{$name} {
+//         @content;
+//       }
+//     }
+
+//     @if $ms == true {
+//       @-ms-keyframes #{$name} {
+//         @content;
+//       }
+//     }
+
+//     @if $o == true {
+//       @-o-keyframes #{$name} {
+//         @content;
+//       }
+//     }
+
+//     @keyframes #{$name} {
+//       @content;
+//     }
+//   }

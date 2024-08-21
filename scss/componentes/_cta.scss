@@ -5,35 +5,35 @@
     position: fixed;
     top: 0;
     width: 100%;
-    // max-width: $mobile;
     height: 4rem;
     padding: 0 1rem;
     font-family: 'rajdhani', sans-serif;
-    background-color: v.$blancoTransparent;
-    // background-color: v.$gris1;
+    z-index: 1;
+    
 
-
-    @include m.flexbox(space-between, center, row){}
+    @include m.flexbox(center, center, row){
+        gap: 1.5rem
+    }
     @include m.centrarHorizontal();
     @include m.tablet{
         height: 5rem;
-        justify-content: space-around;
+        gap: 3rem;
     }
 
     @include m.desktopSmall{
         height: 5rem;
-        justify-content: space-around;
 
     }
     @include m.desktop{
         height: 6.5rem;
-        justify-content: space-evenly;
+        justify-content: center;
+        gap: 5rem;
 
     }
 
     .cta__logo{
-        height: auto;
-        width: 3rem;
+        height:70%;
+        width: 4rem;
         @include m.tablet{
             width: 4rem;
         }
@@ -56,6 +56,10 @@
         border-top: solid v.$blanco 1px;
         border-bottom: solid v.$blanco 1px;
         padding: .5rem;
+        // overflow-y: hidden;
+
+
+
     
         & > div{
             display: grid;
@@ -86,14 +90,43 @@
         }
     }
     .cta__btn{
-        width: 80px;
-        background-color: transparent;
-        border: solid v.$blanco 3px;
-        color: rgb(0, 0, 0);
-        font-size: .8rem;
+        width: 5rem;
+        outline: 0;
+        border:0;
+        cursor: pointer;
+        text-decoration: none;
+        position: relative;
+        color: #000;
+        background: v.$blanco;
+        padding: .5rem 0;
+        font-size: .6rem;
         background-color: v.$colorSecundario;
-        font-family: "raleway";
-        font-weight: lighter;
-        }   
+        font-weight: 700;
+        border-radius: .2rem .5rem .2rem .5rem;
+        
+        
+        transition: all 0.2s;
+        &:hover{
+            background-color: v.$blanco;
+            border-radius: .5rem .2rem .5rem .2rem;
+        }
+
+        @include m.tablet{
+            width: 8rem;
+            padding: .8rem 0;
+            font-size: .8rem;
+            font-weight: 800;
+        }
+        
+    }
+    .cta__mask{
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+        background-color: #07000004;
+        backdrop-filter: blur(1.5px);
+        -webkit-backdrop-filter: blur(1.5px);
+    }
 }
+
 
