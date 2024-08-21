@@ -56,11 +56,7 @@
         border-top: solid v.$blanco 1px;
         border-bottom: solid v.$blanco 1px;
         padding: .5rem;
-        // overflow-y: hidden;
-
-
-
-    
+        
         & > div{
             display: grid;
             grid-template-columns: 1fr;
