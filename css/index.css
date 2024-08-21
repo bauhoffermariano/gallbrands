@@ -80,7 +80,8 @@ a {
 abbr[title] {
   border-bottom: none; /* 1 */
   text-decoration: underline; /* 2 */
-  text-decoration: underline dotted; /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -309,7 +310,7 @@ template {
 
 body {
   margin: 0;
-  background-color: black;
+  background-color: rgb(221, 61, 61);
 }
 
 section {
@@ -327,7 +328,8 @@ section {
 .img__container img {
   max-width: 100%;
   max-height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   display: block;
 }
 
