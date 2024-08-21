@@ -1,0 +1,31 @@
+@use "variables" as v;
+@use "mixins" as m;
+
+
+.hero{
+    max-width: 120rem;
+    margin: 0 auto;
+
+    border: solid 3px red;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+
+    @include m.desktopSmall{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+    & > div{
+        height: 100vh;
+    }
+    
+
+
+    .hero__text{
+        background-color: rgba(255, 0, 0, 0.199);
+    }
+    .hero__animation{
+        background-color: rgba(0, 0, 255, 0.205);
+    }
+}

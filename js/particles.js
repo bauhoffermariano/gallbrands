@@ -631,8 +631,8 @@ window.onload = function () {
     color: ["#003399"],
     connectParticles: true,
     maxParticles: 200,
-    speed: 0.08,
-    sizeVariations: 3,
+    speed: .08,
+    sizeVariations: 0,
     responsive: [
       {
         breakpoint: 480,
@@ -658,17 +658,7 @@ window.onload = function () {
           maxParticles:350
         }
       }
-    ],
-    //   responsive: [{
-    //     breakpoint: 601,
-    //     options:{
-    //       maxParticles:40
-    //     },
-    //     breakpoint: 768,
-    //     options:{
-    //       maxParticles:100
-    //     }
-    //   }
-    // ]
-  });
+    ]
+  })
 };
+

@@ -9,6 +9,7 @@
     padding: 0 1rem;
     font-family: 'rajdhani', sans-serif;
     z-index: 1;
+    border-bottom: solid 1px v.$gris1;
     
 
     @include m.flexbox(center, center, row){
@@ -124,5 +125,4 @@
         -webkit-backdrop-filter: blur(1.5px);
     }
 }
-
 
