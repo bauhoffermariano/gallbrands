@@ -3,10 +3,19 @@ const options = {
         number:{
             value:100
         },
-        color:"#333",
-        zIndex:{
-            value: -1
+        color: "#003399",
+        links:{
+            enable: true,
+            distance: 200,
+            color: "#003399",
+        },
+        move:{
+            enable: true
+        },
+        size:{
+            value: 0
         }
+     
     }
 }
 
