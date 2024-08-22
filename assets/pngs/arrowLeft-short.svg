@@ -2,12 +2,12 @@
 <svg
    id="_1-Arrow_Up"
    data-name="1-Arrow Up"
-   viewBox="0 0 21.410137 32.000999"
+   viewBox="0 0 171.99998 58.29296"
    version="1.1"
-   sodipodi:docname="reshot-icon-arrow-up-ZGEKU95YAJ.svg"
-   width="21.410137"
-   height="32.000999"
-   inkscape:export-filename="..\PROYECTOS\GALLDSGN\assets\pngs\svg\arrowUp-short.svg"
+   sodipodi:docname="arrowLeft-long.svg"
+   width="171.99998"
+   height="58.292961"
+   inkscape:export-filename="..\PROYECTOS\GALLDSGN\assets\pngs\svg\arrowLeft-short.svg"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -32,9 +32,12 @@
      id="title1">1-Arrow Up</title>
   <path
      id="path1"
-     style="fill:#ffffff"
-     d="m 0,27.587884 c 0,0.25499 0.097154,0.51006 0.2910156,0.705078 l 10.0000004,10 1.410156,-1.410156 -8.2910158,-8.289062 H 32 V 28.589844 26.59375 0 H 30 V 26.593743 H 3.4101562 l 8.2910158,-8.291015 -1.410156,-1.419922 -10.0000004,10 C 0.0971538,27.077824 0,27.332893 0,27.587884 Z"
-     sodipodi:nodetypes="sccccccccccccccs" />
+     style="fill:#cccccc;fill-opacity:1"
+     d="m 171.99999,47.58788 c 0,0.25499 -0.0971,0.51006 -0.29102,0.70508 l -10,10 -1.41015,-1.41015 8.29101,-8.28907 H 0 V 48.58974 0 h 2 v 46.59374 h 166.58983 l -8.29101,-8.29101 1.41015,-1.41992 10,10 c 0.19387,0.19501 0.29102,0.45008 0.29102,0.70507 z"
+     sodipodi:nodetypes="scccccccccccccs"
+     inkscape:export-filename="arrowRight-long.svg"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
   <metadata
      id="metadata1">
     <rdf:RDF>

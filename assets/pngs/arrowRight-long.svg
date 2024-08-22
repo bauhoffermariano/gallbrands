@@ -2,11 +2,11 @@
 <svg
    id="_1-Arrow_Up"
    data-name="1-Arrow Up"
-   viewBox="0 0 32 78.292961"
+   viewBox="0 0 172 218.29295"
    version="1.1"
-   sodipodi:docname="reshot-icon-arrow-up-ZGEKU95YAJ.svg"
-   width="32"
-   height="78.292961"
+   sodipodi:docname="arrowLeft-long.svg"
+   width="172"
+   height="218.29295"
    inkscape:export-filename="..\PROYECTOS\GALLDSGN\assets\pngs\svg\arrowLeft-short.svg"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
@@ -33,9 +33,9 @@
   <path
      id="path1"
      style="fill:#ffffff"
-     d="m 32,67.587884 c 0,0.25499 -0.09715,0.51006 -0.291016,0.705078 l -10,10 -1.410156,-1.410156 8.291016,-8.289062 H 0 V 68.589844 66.59375 0 h 2 v 66.593743 h 26.589844 l -8.291016,-8.291015 1.410156,-1.419922 10,10 C 31.902846,67.077824 32,67.332893 32,67.587884 Z"
+     d="m 172,207.58788 c 0,0.25499 -0.0971,0.51006 -0.29102,0.70508 l -10,10 -1.41015,-1.41015 8.29101,-8.28907 H 0 v -0.004 V 66.59375 0 h 2 v 206.59374 h 166.58984 l -8.29101,-8.29101 1.41015,-1.41992 10,10 c 0.19387,0.19501 0.29102,0.45008 0.29102,0.70507 z"
      sodipodi:nodetypes="sccccccccccccccs"
-     inkscape:export-filename="..\PROYECTOS\GALLDSGN\assets\pngs\svg\arrowRight-med.svg"
+     inkscape:export-filename="arrowLeft-long.svg"
      inkscape:export-xdpi="96"
      inkscape:export-ydpi="96" />
   <metadata

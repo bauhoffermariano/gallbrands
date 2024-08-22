@@ -44,6 +44,16 @@
     @content;
   }
 }
+@mixin desktopBig {
+  @media (min-width: v.$desktopBig) {
+    @content;
+  }
+}
+@mixin desktopBiggest {
+  @media (min-width: v.$desktopBiggest) {
+    @content;
+  }
+}
 
 @mixin arrow-1(){
   .arrow-1 {

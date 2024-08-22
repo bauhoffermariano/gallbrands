@@ -29,12 +29,16 @@
         height: 6.5rem;
         justify-content: center;
         gap: 5rem;
-
+    }
+    @include m.desktopBig{
+        gap: 7rem;
     }
 
     .cta__logo{
-        height:70%;
+        height:50%;
         width: 4rem;
+        transform: scale(1.3);
+
         @include m.tablet{
             width: 4rem;
         }
@@ -42,7 +46,10 @@
             width: 4rem;
         }
         @include m.desktop{
-            width: 5rem;
+            width: 4rem;
+        }
+        @include m.desktopBig{
+            transform: scale(1.5);
         }
     }
     
@@ -92,8 +99,8 @@
         inset: 0;
         z-index: -1;
         background-color: #07000004;
-        backdrop-filter: blur(1.5px);
-        -webkit-backdrop-filter: blur(1.5px);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
     }
 }
 .cta__btn{
@@ -123,6 +130,17 @@
         padding: .8rem 0;
         font-size: .8rem;
         font-weight: 800;
+    }
+    @include m.desktopBig{
+        width: 10rem;
+        padding: 1rem 0;
+        font-size: .8rem;
+        font-weight: 800;
+
+        &:hover{
+            background-color: v.$blanco;
+            border-radius: .6rem .3rem .6rem .3rem;
+        }
     }
     
 }

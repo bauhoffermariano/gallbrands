@@ -1,15 +1,17 @@
 @use "mixins" as m;
 
-.background{
-    position: absolute;
-    display: block;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    height: 100%;
-    width: 100%;
+.secondary{
+    position: relative;
+    // background-color: #333;
+    z-index: 0;
 
-}
-.background-2{
-    top: 100vh;
+    #tsparticles{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        // background-color: #666;
+    }
 }
