@@ -80,8 +80,7 @@ a {
 abbr[title] {
   border-bottom: none; /* 1 */
   text-decoration: underline; /* 2 */
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted; /* 2 */
+  text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -329,44 +328,13 @@ section {
 .img__container img {
   max-width: 100%;
   max-height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   display: block;
 }
 
-.arrow-1 {
-  width: 100px;
-  height: 15px;
-  display: flex;
-}
-
-.arrow-1:before {
-  z-index: 1;
-  content: "";
-  background: currentColor;
-  width: 15px;
-  -webkit-clip-path: polygon(0 10px, calc(100% - 15px) 10px, calc(100% - 15px) 0, 100% 50%, calc(100% - 15px) 100%, calc(100% - 15px) calc(100% - 10px), 0 calc(100% - 10px));
-          clip-path: polygon(0 10px, calc(100% - 15px) 10px, calc(100% - 15px) 0, 100% 50%, calc(100% - 15px) 100%, calc(100% - 15px) calc(100% - 10px), 0 calc(100% - 10px));
-  flex-grow: 0.5;
-  background-color: red;
-}
-
-@keyframes a1 {
-  90%, 100% {
-    flex-grow: 0.5;
-  }
-}
-.secondary {
-  position: relative;
-  z-index: 0;
-}
-.secondary #tsparticles {
+.bg__hero {
   position: absolute;
   height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1;
 }
 
 .cta {
@@ -535,7 +503,7 @@ section {
   height: 150vh;
   max-width: 120rem;
   margin: 0 auto;
-  margin-top: 4rem;
+  padding-top: 5rem;
   border: solid 3px red;
   display: grid;
   grid-template-columns: 1fr;
@@ -546,7 +514,7 @@ section {
 @media (min-width: 768px) {
   .hero {
     padding: 1.5rem;
-    margin-top: 5rem;
+    padding-top: 6rem;
     grid-template-rows: 1fr 1.5fr;
   }
 }
@@ -559,7 +527,7 @@ section {
 }
 @media (min-width: 1280px) {
   .hero {
-    margin-top: 6.5rem;
+    padding-top: 7.5rem;
   }
 }
 .hero > div {

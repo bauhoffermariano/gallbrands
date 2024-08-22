@@ -24,32 +24,3 @@ section {
   object-fit: cover;
   display: block;
 }
-.arrow-1 {
-  width: 100px;
-  height: 15px;
-  display: flex;
-}
-.arrow-1:before {
-  z-index: 1;
-  content: "";
-  background: currentColor;
-  width: 15px;
-  clip-path: polygon(
-    0 10px,
-    calc(100% - 15px) 10px,
-    calc(100% - 15px) 0,
-    100% 50%,
-    calc(100% - 15px) 100%,
-    calc(100% - 15px) calc(100% - 10px),
-    0 calc(100% - 10px)
-  );
-  flex-grow: .5;
-//   animation: a1 1.5s infinite linear;
-  background-color: red;
-}
-@keyframes a1 {
-  90%,
-  100% {
-    flex-grow: .5;
-  }
-}
