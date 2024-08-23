@@ -1,87 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link rel="stylesheet" href="css/hover.css" media="all"> -->
-    <link rel="stylesheet" href="css/index.css" />
-    <title>Countdown Timer</title>
-  </head>
-  <body>
-    <div class="main__container">
-      <nav class="cta">
-        <div class="cta__logo img__container">
-          <img src="assets/pngs/logo.svg" alt="Logo" />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- <link rel="stylesheet" href="css/hover.css" media="all"> -->
+  <link rel="stylesheet" href="css/index.css" />
+  <title>Countdown Timer</title>
+</head>
+
+<body>
+  <div class="main__container">
+    <nav class="cta" id="cta">
+      <div class="cta__logo img__container">
+        <img src="assets/pngs/logo.svg" alt="Logo" />
+      </div>
+      <div class="count__container" id="countEnd" style="display: none;">
+        <p>termino papito</p>
+      </div>
+      <div class="count__container" id="countRun">
+        <div class="count__days">
+          <span class="days__number" id="days"></span>
+          <span class="days__text">dias</span>
         </div>
-        <div class="count__container" id="countEnd" style="display: none;">
-          <p>termino papito</p>
+        <div class="count__hours">
+          <span class="hour__number" id="hours"></span>
+          <span class="hours__text">hrs</span>
         </div>
-        <div class="count__container" id="countRun">
-          <div class="count__days">
-            <span class="days__number" id="days"></span>
-            <span class="days__text">dias</span>
-          </div>
-          <div class="count__hours">
-            <span class="hour__number" id="hours"></span>
-            <span class="hours__text">hrs</span>
-          </div>
-          <div class="count__minutes">
-            <span class="minutes__number" id="minutes"></span>
-            <span class="minutes__text">min</span>
-          </div>
-          <div class="count__seconds">
-            <span class="seconds__number" id="seconds"></span>
-            <span class="seconds__text">seg</span>
-          </div>
+        <div class="count__minutes">
+          <span class="minutes__number" id="minutes"></span>
+          <span class="minutes__text">min</span>
         </div>
-        <div class="cta__cta">
-          <button class="cta__btn" id="ctaBtn">AGENDATE
+        <div class="count__seconds">
+          <span class="seconds__number" id="seconds"></span>
+          <span class="seconds__text">seg</span>
+        </div>
+      </div>
+      <div class="cta__cta">
+        <button class="cta__btn" id="ctaBtn">AGENDATE
+        </button>
+      </div>
+      <div class="cta__mask"></div>
+    </nav>
+
+    <section class="hero container">
+      <!-- <div class="bg__hero" id="bgHero"></div> -->
+      <div class="hero__text">
+        <h1 class="hero__title">ACA VA UN TITULARDO</h1>
+        <h3 class="hero__subtitle">aca va un subtitolo explicativo, vite como e hay que madnar un poquito de relleno
+          </h1>
+          <button class="cta__btn" id="ctaBtn">OTRO CTA
           </button>
+      </div>
+      <div class="hero__ani">
+        <div class="hero__mindmap">
+          <!-- <div class="mindmap__nodo--central">inicia</div> -->
+          <!-- <div class="mindmap__arrowdual">arrow1</div> -->
+          <!-- <div class="mindmap__nodo--l1">left text1</div> -->
+          <!-- <div class="mindmap__nodo--r1">right text1</div> -->
+          <!-- <div class="mindmap__arrow">arrow</div> -->
+          <!-- <div class="mindmap__arrow">arrow</div> -->
+          <!-- <div class="mindmap__nodo--l2">left text2</div> -->
+          <!-- <div class="mindmap__nodo--r2">right text2</div> -->
+          <!-- <div class="mindmap__arrow">arrow</div> -->
+          <!-- <div class="mindmap__arrow">arrow</div> -->
+          <!-- <div class="mindmap__nodo--l3">left text1</div> -->
+          <!-- <div class="mindmap__nodo--r3">right text1</div> -->
+
+          <!-- <div class="img__container"> -->
+            <!-- <object data="assets/pngs/mindmapTest.svg" type="image/svg+xml" id="mindMap" width="100%" height="100%"></object> -->
+            <svg id="mindMap" width="auto" height="auto" viewBox="0 0 77.559387 112.04641" version="1.1"
+              inkscape:export-filename="mindmapTest.svg" inkscape:export-xdpi="96" inkscape:export-ydpi="96"
+              xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+              xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg"
+              xmlns:svg="http://www.w3.org/2000/svg">
+              <sodipodi:namedview id="namedview1" pagecolor="#505050" bordercolor="#eeeeee" borderopacity="1"
+                inkscape:showpageshadow="0" inkscape:pageopacity="0" inkscape:pagecheckerboard="0"
+                inkscape:deskcolor="#505050" inkscape:document-units="mm" />
+              <defs id="defs1" />
+              <g inkscape:label="Capa 1" inkscape:groupmode="layer" id="layer1"
+                transform="translate(-0.92418844,-2.1705236)">
+                <rect style="fill:#ffffff;stroke-width:0.264583" id="rect11" width="30.749086" height="11.576126"
+                  x="1.2661388" y="2.1705236" />
+                <rect style="fill:#ffffff;stroke-width:0.264583" id="rect11-6" width="30.749086" height="11.576126"
+                  x="47.734493" y="2.25423" />
+                <rect style="fill:#ffffff;stroke-width:0.264583" id="rect11-4" width="30.749086" height="11.576126"
+                  x="1.0583332" y="29.368748" />
+                <rect style="fill:#ffffff;stroke-width:0.264583" id="rect11-6-3" width="30.749086" height="11.576126"
+                  x="47.526688" y="29.452454" />
+                <rect style="fill:#ffffff;stroke-width:0.264583" id="rect11-4-1" width="30.749086" height="11.576126"
+                  x="1.0583329" y="72.760437" />
+                <rect style="fill:#ffffff;stroke-width:0.264583" id="rect11-4-1-1" width="30.749086" height="11.576126"
+                  x="47.528473" y="50.87138" />
+                <rect style="fill:#ffffff;stroke-width:0.264583" id="rect11-4-1-5" width="30.749086" height="11.576126"
+                  x="0.92418844" y="102.64081" />
+                <rect style="fill:#ffffff;stroke-width:0.264583" id="rect11-6-3-2" width="30.749086" height="11.576126"
+                  x="47.526684" y="72.844139" />
+                <rect style="fill:#0000ff;stroke-width:0.264583" id="rect12" width="15.859518" height="0.70344639"
+                  x="31.846935" y="7.6915298" />
+                <rect style="fill:#0000ff;stroke-width:0.264583" id="rect12-7" width="15.859518" height="0.70344639"
+                  x="31.485416" y="35.45417" />
+                <rect style="fill:#0000ff;stroke-width:0.264583" id="rect12-6" width="15.859518" height="0.70344639"
+                  x="31.677258" y="77.842659" />
+                <rect style="fill:#800080;stroke-width:0.264583" id="rect13" width="0.6330694" height="15.645858"
+                  x="15.510201" y="13.70143" />
+                <rect style="fill:#800080;stroke-width:0.286893" id="rect13-1" width="0.6330694" height="18.395693"
+                  x="15.808593" y="84.225349" />
+                <rect style="fill:#800080;stroke-width:0.377353" id="rect13-6" width="0.6330694" height="31.825125"
+                  x="15.514864" y="40.936981" />
+                <rect style="fill:#800080;stroke-width:0.210363" id="rect13-0" width="0.6330694" height="9.8903875"
+                  x="63.581604" y="41.00528" />
+                <rect style="fill:#ff00ff;stroke-width:0.215071" id="rect13-0-4" width="0.6330694" height="10.338036"
+                  x="63.567822" y="62.457455" />
+              </g>
+            </svg>
+
+
+
+
+          <!-- </div> -->
+
+
         </div>
-        <div class="cta__mask"></div>
-      </nav>
+      </div>
 
-      <section class="hero container">
-        <!-- <div class="bg__hero" id="bgHero"></div> -->
-        <div class="hero__text">
-          <h1 class="hero__title">ACA VA UN TITULARDO</h1>
-          <h3 class="hero__subtitle">aca va un subtitolo explicativo, vite como e hay que madnar un poquito de relleno</h1>
-            <button class="cta__btn" id="ctaBtn">OTRO CTA
-            </button>
-        </div>
-        <div class="hero__ani">
-          <div class= "hero__mindmap">
-            <div class="mindmap__nodo--central">inicia</div>
-            <!-- <div class="mindmap__arrowdual">arrow1</div> -->
-            <div class="mindmap__nodo--l1">left text1</div>
-            <div class="mindmap__nodo--r1">right text1</div>
-            <!-- <div class="mindmap__arrow">arrow</div> -->
-            <!-- <div class="mindmap__arrow">arrow</div> -->
-            <div class="mindmap__nodo--l2">left text2</div>
-            <div class="mindmap__nodo--r2">right text2</div>
-            <!-- <div class="mindmap__arrow">arrow</div> -->
-            <!-- <div class="mindmap__arrow">arrow</div> -->
-            <div class="mindmap__nodo--l3">left text1</div>
-            <div class="mindmap__nodo--r3">right text1</div>
-            
+      <div class="bg__hero" id="bgHero"></div>
+    </section>
 
-          </div>
-        </div>
 
-        <div class="bg__hero" id="bgHero"></div>
-      </section>
-      
-      
-      <section class="secondary"></section>
-      <section class="terciary"></section>
-    </div>
+    <section class="secondary"></section>
+    <section class="terciary"></section>
+  </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/tsparticles-slim@2.0.6/tsparticles.slim.bundle.min.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/count.js"></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles-slim@2.0.6/tsparticles.slim.bundle.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/mindMapAnimation.js"></script>
+  <script src="js/count.js"></script>
+</body>
+
 </html>
-
-
-
-

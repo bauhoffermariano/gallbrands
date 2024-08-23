@@ -2,37 +2,38 @@
 @use "mixins" as m;
 
 .hero {
-  height: 150vh;
+  height: auto;
   width: 100%;
   margin: 0 auto;
-  padding: 0 1rem;
-  padding-top: 5rem;
-  border: solid 3px red;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1.5fr;
-  // font-family: v.$fuenteSecundaria;
+  border: solid 1px red;
   font-family: 'raleway', sans-serif;
   color: v.$blanco;
+  @include m.flexbox(center,center,column){
+  }
 
-  @include m.tablet {
-    padding: 1.5rem;
-    padding-top: 6rem;
-    // height: 200vh;
-    grid-template-rows: 1fr 1.5fr;
-  }
   @include m.desktopSmall {
-    height: 100vh;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
+    @include m.flexbox(center, center, row){}
   }
-  @include m.desktop {
-    padding-top: 7.5rem;
-  }
+
+  // .hero__text,
+  // .hero__ani{
+  //   @include m.tablet{
+  //     padding: 0 2rem;
+  //   }
+  // }
+
 
   .hero__text {
+    height: 50vh;
+    background-color: #ffffff41;
+    @include m.flexbox(center,flex-start, column){
+      gap: 1rem;
+    }
     
     h1 {
+      margin: 0;
+      line-height: 90%;
+
       font-size: clamp(3rem, 1.571rem + 7.143vw, 5rem);
 
       @include m.desktopSmall {
@@ -40,6 +41,7 @@
       }
     }
     h3 {
+      margin: 0;
       font-size: clamp(1rem, 0.429rem + 2.857vw, 1.8rem);
 
       @include m.desktopSmall {
@@ -51,23 +53,11 @@
     height: 100%;
     width: 100%;
     margin: 0 auto;
-
+    background-color: #ff03ab52;
 
     .hero__mindmap{
         height: inherit;
         position: relative;
-        background-color: #ff03ab52;
-
-        & > [class*="nodo"]{
-            position: absolute;
-            height: 100px;
-            width: 100px;
-            background-color: rgba(255, 68, 0, 0.527);
-        }
-
-        .mindmap__nodo--central{
-            top: 0;
-        }
     }
   }
 }
