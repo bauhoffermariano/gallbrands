@@ -11,7 +11,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1.5fr;
-  font-family: "raleway";
+  font-family: v.$fuenteSecundaria;
   color: v.$blanco;
 
   @include m.tablet {
