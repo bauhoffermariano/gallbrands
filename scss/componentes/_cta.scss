@@ -58,7 +58,6 @@
         position: relative;
         @include m.flexbox(center, center, row){}
         gap: .5rem;
-        font-family: 'rajdhani', sans-serif;
         color: v.$blanco;
 
         border-top: solid v.$blanco 1px;
