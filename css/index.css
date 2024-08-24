@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: "raleway";
-  src: url("../../assets/fonts/Raleway/raleway-black.woff") format(woff);
+  src: url("../../assets/fonts/Raleway/Raleway-VariableFont_wght.ttf") format(woff);
 }
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -80,8 +80,7 @@ a {
 abbr[title] {
   border-bottom: none; /* 1 */
   text-decoration: underline; /* 2 */
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted; /* 2 */
+  text-decoration: underline dotted; /* 2 */
 }
 
 /**
