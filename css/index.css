@@ -80,7 +80,8 @@ a {
 abbr[title] {
   border-bottom: none; /* 1 */
   text-decoration: underline; /* 2 */
-  text-decoration: underline dotted; /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -526,7 +527,6 @@ section {
   height: auto;
   width: 100%;
   margin: 0 auto;
-  border: solid 1px red;
   font-family: "raleway", sans-serif;
   color: #cccccc;
   display: flex;
@@ -544,7 +544,6 @@ section {
 }
 .hero .hero__text {
   height: 50vh;
-  background-color: rgba(255, 255, 255, 0.2549019608);
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -574,7 +573,6 @@ section {
   height: 100%;
   width: 100%;
   margin: 0 auto;
-  background-color: rgba(255, 3, 171, 0.3215686275);
 }
 .hero .hero__ani .hero__mindmap {
   height: inherit;
