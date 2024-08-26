@@ -123,11 +123,10 @@
     font-family: 'raleway';
     font-weight: 700;
     background-color: v.$colorSecundario;
-
     border-radius: .2rem .5rem .2rem .5rem;
-    
-    
     transition: all 0.2s;
+
+    
     &:hover{
         background-color: transparent;
         color: v.$blanco;

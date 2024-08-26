@@ -1,7 +1,7 @@
 const options = {
     particles:{
         number:{
-            value:5
+            value:10
         },
         color: "#003399",
         links:{
