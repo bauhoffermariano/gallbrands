@@ -58,21 +58,38 @@ const logoBelen= document.getElementById("logoBelen");
 const logoGallmarquez= document.getElementById("logoGallmarquez");
 const arrayLogo = [logoYamatec, logoUdana, logoSound, logoX, logoBelen, logoGallmarquez];
 
+let matchMedia = gsap.matchMedia();
 
-const tlMindmap = gsap.timeline({
-  scrollTrigger:{
-    trigger: ".hero__ani",
-    scrub: true,
-    markers:true,
-    pin:true,
-    pinSpacing:true,
-    start: "top 10%",
-    end: "500% 110%"
-  }
+matchMedia.add("(max-width: 767px)", () => {
+  const tlMindmap = gsap.timeline({
+    scrollTrigger:{
+      trigger: ".hero__ani",
+      scrub: true,
+      markers:true,
+      pin:true,
+      pinSpacing:true,
+      start: "top 10%",
+      end: "500% 110%"
+    }
+  })
 });
 
-
-tlMindmap.from(dueño,{opacity:0})
+// const tlMindmap2 = gsap.timeline(
+//   {
+//     paused:true,
+//   scrollTrigger:{
+//     trigger: ".hero__ani",
+//     scrub: true,
+//     markers:true,
+//     pin:true,
+//     pinSpacing:true,
+//     start: "top 10%",
+//     end: "500% 110%"
+//   }
+// }
+// );
+tlMindmap
+         .from(dueño,{opacity:0})
          .to(flecha1,{strokeDashoffset:0})
          .from(no1, {opacity:0},"<50%")
          .from(agenda,{opacity:0})
@@ -98,7 +115,7 @@ tlMindmap.from(dueño,{opacity:0})
          .from(no3, {opacity:0},"<10%")
          .from(camino,{opacity:0})
          .from(iconoTick,{opacity:0,scale:.5,transformOrigin:"50% 50%", ease:"bounce.out",duration:.8},"<")
-    
+
          .to(flechaF1,{strokeDashoffset:0},"<")
          .from(logoYamatec,{opacity:0},)
          .to(flechaF2,{strokeDashoffset:0},"<")
@@ -111,5 +128,69 @@ tlMindmap.from(dueño,{opacity:0})
          .from(logoBelen,{opacity:0},"<+80%")
          .to(flechaF6,{strokeDashoffset:0},"<")
          .from(logoGallmarquez,{opacity:0},"<+80%")
- 
 
+  matchMedia.add("(min-width: 767px)", () => {
+   const tlMindmap2 = gsap.timeline({
+     scrollTrigger:{
+       trigger: ".hero__ani",
+       scrub: true,
+       markers:true,
+       pin:true,
+       pinSpacing:true,
+       start: "top 10%",
+       end: "500% 110%"
+     }
+   })
+ });
+
+tlMindmap2
+         .from(dueño,{opacity:0})
+         .to(flecha1,{strokeDashoffset:0})
+         .from(no1, {opacity:0},"<50%")
+         .from(agenda,{opacity:0})
+         .to(flecha2,{strokeDashoffset:0})
+         .from(si1, {opacity:0},"<50%")
+         .from(posicionarMarca,{opacity:0})
+         .to(flecha3,{strokeDashoffset:0})
+         .from(si2, {opacity:0},"<50%")
+         .from(branding,{opacity:0})
+         .to(flecha4,{strokeDashoffset:0})
+         .from(no2, {opacity:0},"<50%")
+         .from(excelente,{opacity:0})
+         .from(iconoLike,{opacity:0,scale:.5,transformOrigin:"50% 50%", ease:"bounce.out",duration:.8},"<")
+         .from(aumentarVentas,{opacity:0})
+         .to(flecha5,{strokeDashoffset:0})
+         .from(si3, {opacity:0},"<50%")
+         .to("#mindMap",{y:-100},"<")
+         .from(estrategia,{opacity:0})
+         .to(flecha6,{strokeDashoffset:0})
+         .to(flecha7,{strokeDashoffset:0},"<")
+         .from(agendaBig,{opacity:0})
+         .from(agendaBigBg,{opacity:0},"<")
+         .to(flecha8,{strokeDashoffset:0})
+         .from(no3, {opacity:0},"<10%")
+         .to("#mindMap",{y:-200},"<")
+         .from(camino,{opacity:0})
+         .from(iconoTick,{opacity:0,scale:.5,transformOrigin:"50% 50%", ease:"bounce.out",duration:.8},"<")
+
+         .to("#mindMap",{y:-350},"<")
+         .to(flechaF1,{strokeDashoffset:0},"<")
+         .from(logoYamatec,{opacity:0},)
+         .to(flechaF2,{strokeDashoffset:0},"<")
+         .from(logoUdana,{opacity:0},)
+         .to(flechaF3,{strokeDashoffset:0},"<")
+         .from(logoSound,{opacity:0},"<+80%")
+         .to(flechaF4,{strokeDashoffset:0},"<")
+         .from(logoX,{opacity:0},"<+80%")
+         .to(flechaF5,{strokeDashoffset:0},"<")
+         .from(logoBelen,{opacity:0},"<+80%")
+         .to(flechaF6,{strokeDashoffset:0},"<")
+         .from(logoGallmarquez,{opacity:0},"<+80%")
+
+ 
+if (window.innerWidth < 768) {
+  tlMindmap.play(); // Activar la animación para dispositivos móviles
+} else {
+  tlMindmap2.play(); // Activar la animación para dispositivos grandes
+}
+        

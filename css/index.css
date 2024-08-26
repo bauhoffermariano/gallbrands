@@ -320,7 +320,6 @@ body {
 
 section {
   overflow-x: hidden;
-  height: 100vh;
 }
 
 .container {
@@ -600,7 +599,7 @@ section {
 }
 .hero .hero__ani {
   position: relative;
-  height: clamp(31.25rem, 13.393rem + 89.286vw, 56.25rem);
+  height: clamp(28.75rem, 9.151rem + 97.996vw, 56.25rem);
   width: 100%;
   backdrop-filter: blur(50px);
   -webkit-backdrop-filter: blur(50px);
