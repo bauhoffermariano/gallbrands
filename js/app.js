@@ -14,6 +14,9 @@ const options = {
         },
         size:{
             value:{min:1, max:50}
+        },
+        opacity: {
+            value: 0.8
         }
      
     }

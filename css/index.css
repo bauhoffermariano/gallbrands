@@ -365,7 +365,9 @@ section {
 .bg__hero {
   position: absolute;
   height: 100%;
+  width: 100%;
   z-index: -1;
+  filter: blur(15px);
 }
 
 .cta {
@@ -487,8 +489,8 @@ section {
   inset: 0;
   z-index: -1;
   background-color: rgba(7, 0, 0, 0.0156862745);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
 }
 
 .cta__btn {
@@ -590,8 +592,8 @@ section {
 .hero .hero__ani {
   position: relative;
   width: 100%;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
   border: solid 1px white;
   border-radius: 0.2rem 1rem 0.2rem 1rem;
   overflow: hidden;

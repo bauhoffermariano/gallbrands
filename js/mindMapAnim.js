@@ -1,5 +1,5 @@
 //texto
-const dueño = document.getElementById("dueño");
+const dueño = document.getElementById("owner");
 const agenda= document.getElementById("agenda");
 const posicionarMarca= document.getElementById("posicionarMarca");
 const branding= document.getElementById("branding");
@@ -59,7 +59,7 @@ const logoGallmarquez= document.getElementById("logoGallmarquez");
 const arrayLogo = [logoYamatec, logoUdana, logoSound, logoX, logoBelen, logoGallmarquez];
 
 
-const tlMindmap = gsap.timeline();
+const tlMindmap = gsap.timeline({ delay: 3});
 
 tlMindmap.from(dueño,{opacity:0})
          .to(flecha1,{strokeDashoffset:0})
