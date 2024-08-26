@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    id="mindMap"
    viewBox="0 0 502.78567 752.00216"
@@ -569,10 +561,3 @@
      d="m 258.78163,510.04545 c -0.0581,37.02932 0.008,92.16998 -0.0177,128.92171 h 54.77313 c -0.0968,20.03298 0.0493,22.09513 -0.22729,42.13615 l 0.14567,-1.82844 h 2.08814 l -2.32702,2.58579 -2.34643,-2.58579 h 2.5985"
      id="flechaF4" />
 </svg>
-
-
-<script src="gsap.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script> 
-<script src="mindMapAnimation.js"></script>
-</body>
-</html>

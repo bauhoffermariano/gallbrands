@@ -1,20 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    id="mindMap"
-   viewBox="0 0 502.78567 752.00216"
+   viewBox="0 0 493.67218 729.29501"
    version="1.1"
-   width="502.78568"
-   height="752.00214"
+   width="493.67218"
+   height="729.29498"
+   sodipodi:docname="mindMapTest3_.svg"
+   inkscape:export-filename="mindMapTest3_.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="1.1257448"
+     inkscape:cx="117.69986"
+     inkscape:cy="384.19011"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="mindMap"
+     showgrid="false" />
   <defs
      id="defs1">
     <style
@@ -76,7 +94,8 @@
   </defs>
   <g
      id="logoSound"
-     transform="translate(-134.34663,19.942116)">
+     transform="translate(-134.34663,15.23501)"
+     inkscape:label="logoSound">
     <path
        class="cls-4"
        d="m 393.84,696.92 c 1.1,1.05 1.1,2.76 0,3.81 -1.1,1.05 -2.89,1.05 -3.99,0 L 369.9,681.68 v 0 c -1.09,-1.06 -1.09,-2.76 0,-3.81 1.1,-1.05 2.88,-1.05 3.98,0 0,0 0,0 0,0 l 19.95,19.05 z"
@@ -110,7 +129,8 @@
   </g>
   <g
      id="logoX"
-     transform="translate(-132.34663,17.942116)">
+     transform="translate(-132.34663,13.23501)"
+     inkscape:label="logoX">
     <g
        id="g44">
       <path
@@ -140,7 +160,8 @@
   </g>
   <g
      id="logoUdana"
-     transform="translate(-132.34663,19.942116)">
+     transform="translate(-132.34663,15.23501)"
+     inkscape:label="logoUdana">
     <path
        class="cls-4"
        d="m 279.25,703.89 c -0.2,0.22 -0.41,0.44 -0.63,0.66 0,0 0,0 -0.01,0.01 -0.24,0.24 -0.49,0.47 -0.74,0.69 0.23,-0.25 0.46,-0.49 0.7,-0.73 -2.9,-2.84 -6.86,-4.59 -11.24,-4.59 -4.38,0 -8.38,1.77 -11.28,4.63 -2.95,-2.91 -4.78,-6.96 -4.78,-11.44 0,-8.87 7.19,-16.06 16.06,-16.06 4.39,0 8.37,1.76 11.27,4.61 -2.95,2.91 -4.78,6.95 -4.78,11.42 0,4.47 1.82,8.5 4.77,11.41 0.22,-0.21 0.44,-0.42 0.67,-0.62 z"
@@ -162,7 +183,8 @@
   </g>
   <g
      id="logoGallmarquez"
-     transform="translate(-126.34663,19.942116)">
+     transform="translate(-126.34663,15.23501)"
+     inkscape:label="logoGallmarquez">
     <g
        id="g54">
       <path
@@ -200,7 +222,8 @@
   </g>
   <g
      id="logoBelen"
-     transform="translate(-130.34663,19.942116)">
+     transform="translate(-130.34663,15.23501)"
+     inkscape:label="logoBelen">
     <g
        id="g59">
       <path
@@ -248,7 +271,7 @@
        y="701.46997"
        width="16.190001"
        height="0.34"
-       transform="rotate(-0.07,539.76228,745.17632)"
+       transform="rotate(-0.07,539.76228,745.17626)"
        id="rect64" />
     <g
        id="g64">
@@ -280,7 +303,8 @@
   </g>
   <g
      id="logoYamatec"
-     transform="translate(-138.41292,21.190816)">
+     transform="translate(-138.41292,16.48371)"
+     inkscape:label="logoYamatec">
     <path
        class="cls-4"
        d="m 186.98,694.25 17.54,-16.89 c 0.12,-0.12 0.23,-0.21 0.33,-0.3 h -35.28 c 0.14,0.11 0.27,0.22 0.41,0.36 l 17,16.84 z"
@@ -293,7 +317,8 @@
   </g>
   <g
      id="iconoLike"
-     transform="translate(-104.47616,-102.31888)">
+     transform="translate(-105.47616,-125.02599)"
+     inkscape:label="iconoLike">
     <circle
        class="cls-9"
        cx="322.14001"
@@ -315,7 +340,8 @@
   </g>
   <g
      id="iconoTick"
-     transform="translate(62.735787,-136.92988)">
+     transform="translate(60.735787,-134.63699)"
+     inkscape:label="iconoTick">
     <path
        class="cls-9"
        d="m 315.77,603.43 c -6.89,0 -12.5,5.61 -12.5,12.5 0,6.89 5.61,12.5 12.5,12.5 1.15,0 2.27,-0.16 3.33,-0.45 5.04,-1.39 8.81,-5.87 9.14,-11.27 0.02,-0.26 0.03,-0.52 0.03,-0.78 0,-6.89 -5.61,-12.5 -12.5,-12.5 z m 10.05,12.5 c 0,5.11 -3.84,9.35 -8.79,9.97 -0.41,0.05 -0.83,0.08 -1.25,0.08 -5.54,0 -10.05,-4.51 -10.05,-10.05 0,-5.54 4.51,-10.05 10.05,-10.05 4.92,0 9.03,3.56 9.88,8.24 0.11,0.59 0.16,1.19 0.16,1.81 z"
@@ -329,11 +355,11 @@
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#cccccc;fill-opacity:1"
      x="-0.495"
-     y="367.39279"
+     y="362.6857"
      id="aumentarVentas"><tspan
        id="tspan70"
        x="-0.495"
-       y="367.39279"
+       y="362.6857"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#cccccc;fill-opacity:1">¿Para <tspan
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;fill:#cccccc;fill-opacity:1"
    id="tspan21">aumentar</tspan> las ventas?</tspan></text>
@@ -341,65 +367,59 @@
      class="cls-6"
      id="owner"
      x="11.933372"
-     y="22.732105"
+     y="18.025"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#cccccc;fill-opacity:1"><tspan
        x="11.933372"
-       y="22.732105"
+       y="18.025"
        id="tspan1"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;fill:#cccccc;fill-opacity:1">¿Dueño/a de Negocio?</tspan></text>
   <text
      class="cls-6"
      id="agenda"
      x="322.52338"
-     y="22.732105"
+     y="18.025"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#cccccc;fill-opacity:1"><tspan
        x="322.52338"
-       y="22.732105"
+       y="18.025"
        id="tspan2"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#cccccc;fill-opacity:1"><tspan
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;fill:#cccccc;fill-opacity:1"
    id="tspan22">Agendá</tspan> una llamada y</tspan><tspan
        x="320.02338"
-       y="40.732105"
+       y="36.024998"
        id="tspan3"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#cccccc;fill-opacity:1">te ayudo a emprenderlo</tspan></text>
   <text
      class="cls-6"
      id="branding"
      x="309.54071"
-     y="173.93211"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#cccccc;fill-opacity:1"><tspan
+     y="169.22501"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#cccccc;fill-opacity:1"
+     inkscape:label="branding"><tspan
        x="309.54071"
-       y="173.93211"
+       y="169.22501"
        id="tspan4"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#cccccc;fill-opacity:1">Solucionalo con <tspan
    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Raleway;-inkscape-font-specification:'Raleway Bold';fill:#cccccc;fill-opacity:1"
    id="tspan18">BRANDING</tspan></tspan></text>
-  <path
-     style="font-variation-settings:'wght' 700;fill:#ccff66;fill-opacity:1;stroke:none;stroke-width:3;paint-order:stroke fill markers"
-     d="M 489,275.12611 V 238.25 H 294 v 35.375 h 195.00853"
-     id="agendaBigBg">
-    <title
-       id="title1">bgBtn</title>
-  </path>
   <text
      class="cls-8"
      id="agendaBig"
      x="306.69339"
-     y="260.91211"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1"><tspan
+     y="256.20502"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#cccccc;fill-opacity:1"><tspan
        x="306.69339"
-       y="260.91211"
+       y="256.20502"
        id="tspan5"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1">AGENDÁ UNA LLAMADA</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#cccccc;fill-opacity:1">AGENDÁ UNA LLAMADA</tspan></text>
   <text
      class="cls-6"
      id="estrategia"
      x="288.96338"
-     y="348.05463"
+     y="343.34753"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#cccccc;fill-opacity:1"><tspan
        x="288.96338"
-       y="348.05463"
+       y="343.34753"
        id="tspan9"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#cccccc;fill-opacity:1">Solucionalo con <tspan
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;fill:#cccccc;fill-opacity:1"
@@ -408,171 +428,182 @@
      class="cls-6"
      id="posicionarMarca"
      x="10.193372"
-     y="173.93211"
+     y="169.22501"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#cccccc;fill-opacity:1"><tspan
        x="10.193372"
-       y="173.93211"
+       y="169.22501"
        id="tspan13"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#cccccc;fill-opacity:1">¿</tspan><tspan
        class="cls-10"
        x="19.353373"
-       y="173.93211"
+       y="169.22501"
        id="tspan14"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#cccccc;fill-opacity:1">T</tspan><tspan
        class="cls-13"
        x="26.853373"
-       y="173.93211"
+       y="169.22501"
        id="tspan15"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#cccccc;fill-opacity:1">enés problemas para</tspan><tspan
        x="20.623373"
-       y="191.93211"
+       y="187.22501"
        id="tspan16"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#cccccc;fill-opacity:1">Posicionar tu marca?</tspan></text>
   <text
      class="cls-6"
      id="excelente"
      x="31.292593"
-     y="346.77213"
+     y="342.06503"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#cccccc;fill-opacity:1"><tspan
        x="31.292593"
-       y="346.77213"
+       y="342.06503"
        id="tspan17"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#cccccc;fill-opacity:1">Excelente trabajo.</tspan></text>
   <text
      class="cls-6"
      id="camino"
      x="184.75371"
-     y="485.9357"
+     y="481.22861"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#cccccc;fill-opacity:1"><tspan
        x="184.75371"
-       y="485.9357"
+       y="481.22861"
        id="tspan24"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#cccccc;fill-opacity:1">Estás en el camino</tspan><tspan
        x="195.18373"
-       y="503.9357"
+       y="499.22861"
        id="tspan25"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#cccccc;fill-opacity:1">de estás marcas</tspan></text>
   <text
      class="cls-6"
      id="no1"
      x="240.92625"
-     y="10.725"
+     y="6.0178938"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#cccccc;fill-opacity:1"><tspan
        x="240.92625"
-       y="10.725"
+       y="6.0178938"
        id="tspan39"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#cccccc;fill-opacity:1">NO</tspan></text>
   <text
      class="cls-6"
      id="si1"
      x="101.02403"
-     y="92.202103"
+     y="87.494995"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#cccccc;fill-opacity:1"><tspan
        x="101.02403"
-       y="92.202103"
+       y="87.494995"
        id="tspan34"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#cccccc;fill-opacity:1">SI</tspan></text>
   <text
      class="cls-6"
      id="si2"
      x="234.29301"
-     y="158.98651"
+     y="154.2794"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#cccccc;fill-opacity:1"><tspan
        x="234.29301"
-       y="158.98651"
+       y="154.2794"
        id="tspan35"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#cccccc;fill-opacity:1">SI</tspan></text>
   <text
      class="cls-6"
      id="si3"
      x="244.62602"
-     y="409.32919"
+     y="404.6221"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#cccccc;fill-opacity:1"><tspan
        x="244.62602"
-       y="409.32919"
+       y="404.6221"
        id="tspan36"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#cccccc;fill-opacity:1">SI</tspan></text>
   <text
      class="cls-6"
      id="no3"
      x="73.213234"
-     y="448.58716"
+     y="443.88007"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#cccccc;fill-opacity:1"><tspan
        x="73.213234"
-       y="448.58716"
+       y="443.88007"
        id="tspan37"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#cccccc;fill-opacity:1">NO</tspan></text>
   <text
      class="cls-6"
      id="no2"
      x="100.37267"
-     y="267.60938"
+     y="262.90228"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#cccccc;fill-opacity:1"><tspan
        x="100.37267"
-       y="267.60938"
+       y="262.90228"
        id="tspan38"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Raleway;-inkscape-font-specification:'Raleway, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#cccccc;fill-opacity:1">NO</tspan></text>
   <path
      style="font-variation-settings:'wght' 700;fill:none;fill-opacity:1;stroke:#cccccc;stroke-width:1.5;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-     d="m 186.26645,19.751546 h 125.05864 v 2.607947 l 2.51531,-2.354937 -2.51531,-2.335475 V 19.7648 l 1.77859,0.146188"
-     id="flecha1" />
+     d="m 186.26645,15.04444 h 125.05864 v 2.607947 l 2.51531,-2.354937 -2.51531,-2.335475 v 2.095719 l 1.77859,0.146188"
+     id="path1"
+     sodipodi:nodetypes="ccccccc" />
   <path
      style="font-variation-settings:'wght' 700;fill:none;fill-opacity:1;stroke:#cccccc;stroke-width:1.47178;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-     d="M 92.714569,30.467711 V 150.14475 h -2.623656 l 2.369122,2.40707 2.349545,-2.40707 h -2.10834 l -0.147072,1.70205"
-     id="flecha2" />
+     d="M 92.714569,25.760605 V 145.43764 h -2.623656 l 2.369122,2.40707 2.349545,-2.40707 h -2.10834 l -0.147072,1.70205"
+     id="path1-4"
+     sodipodi:nodetypes="ccccccc" />
   <path
      style="font-variation-settings:'wght' 700;fill:none;fill-opacity:1;stroke:#cccccc;stroke-width:1.51812;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-     d="M 93.371403,199.33029 V 327.8932 h -2.598518 l 2.346427,2.5858 2.327028,-2.5858 h -2.088137 l -0.14566,1.82842"
-     id="flecha4" />
+     d="m 93.371403,194.62318 v 128.56291 h -2.598518 l 2.346427,2.5858 2.327028,-2.5858 h -2.088137 l -0.14566,1.82842"
+     id="path1-4-6"
+     sodipodi:nodetypes="ccccccc" />
   <path
      style="font-variation-settings:'wght' 700;fill:none;fill-opacity:1;stroke:#cccccc;stroke-width:1.51812;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-     d="m 205.95875,510.215 0.125,89.52246 h -160.125 v 79.04045 h -2.59852 l 2.34643,2.5858 2.32703,-2.5858 h -2.08814 l -0.14566,1.82842"
-     id="flechaF1" />
+     d="M 205.95875,505.50789 V 541 v 28.75 64.3208 h -2.59852 l 2.34643,2.5858 2.32703,-2.5858 h -2.08814 l -0.14566,1.82842"
+     id="path1-4-6-8"
+     sodipodi:nodetypes="ccccccccc" />
   <path
      style="font-variation-settings:'wght' 700;fill:none;fill-opacity:1;stroke:#cccccc;stroke-width:1.51812;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-     d="m 224.1182,510.06595 v 110.17761 h -76 v 58.3853 h -2.59852 l 2.34643,2.5858 2.32703,-2.5858 H 148.105 l -0.14566,1.82842"
-     id="flechaF2" />
+     d="M 224.1182,505.35884 V 525 l 0,35.5 0,73.42175 h -2.59852 l 2.34643,2.5858 2.32703,-2.5858 H 224.105 l -0.14566,1.82842"
+     id="path1-4-6-84"
+     sodipodi:nodetypes="ccccccccc" />
   <path
      style="font-variation-settings:'wght' 700;fill:none;fill-opacity:1;stroke:#cccccc;stroke-width:1.51812;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-     d="m 241.77338,510.06226 v 168.56291 h -2.59852 l 2.34643,2.5858 2.32703,-2.5858 h -2.08814 l -0.14566,1.82842"
-     id="flechaF3" />
+     d="m 241.77338,505.35515 v 128.56291 h -2.59852 l 2.34643,2.5858 2.32703,-2.5858 h -2.08814 l -0.14566,1.82842"
+     id="path1-4-6-9"
+     sodipodi:nodetypes="ccccccc" />
   <path
      style="font-variation-settings:'wght' 700;fill:none;fill-opacity:1;stroke:#cccccc;stroke-width:1.51812;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-     d="m 276.47634,509.98836 -0.7047,110.2552 h 106.77313 c -0.0968,20.03298 0.0493,40.09513 -0.22729,60.13615 l 0.14567,-1.82844 h 2.08814 l -2.32702,2.58579 -2.34643,-2.58579 h 2.5985"
-     id="flechaF5" />
+     d="M 284.21589,525.19961 V 581 l 28.63306,89.66814 v 2.89531 h -1.33455 l 1.20508,1.32801 1.19511,-1.32801 h -1.07242 l -0.0748,0.93904"
+     id="path1-4-6-7"
+     sodipodi:nodetypes="ccccccccc" />
   <path
      style="font-variation-settings:'wght' 700;fill:none;fill-opacity:1;stroke:#cccccc;stroke-width:1.51812;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-     d="m 292.40473,509.94242 -0.36963,89.79504 h 166.21077 v 80.59629 l 0.14566,-1.82842 h 2.08814 l -2.32703,2.5858 -2.34642,-2.5858 h 2.59851"
-     id="flechaF6" />
+     d="m 382.47634,668.26437 v 5.57979 h -2.5985 l 2.34643,2.58579 2.32702,-2.58579 h -2.08814 l -0.14567,1.82844 c 0.27659,-20.04102 0.13053,-40.10317 0.22729,-60.13615 H 275.77164 l 0.7047,-110.2552"
+     id="path1-4-6-5"
+     sodipodi:nodetypes="cccccccccc" />
+  <path
+     style="font-variation-settings:'wght' 700;fill:none;fill-opacity:1;stroke:#cccccc;stroke-width:1.51812;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+     d="m 458.40473,673.79822 h -2.59851 l 2.34642,2.5858 2.32703,-2.5858 h -2.08814 l -0.14566,1.82842 V 595.03035 H 292.0351 l 0.36963,-89.79504"
+     id="path1-4-6-2"
+     sodipodi:nodetypes="ccccccccc" />
   <path
      style="font-variation-settings:'wght' 700;fill:none;fill-opacity:1;stroke:#cccccc;stroke-width:1.41476;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-     d="M 66.034037,375.64027 V 481.3044 H 173.76384 v 2.69314 l 2.16678,-2.43187 -2.16678,-2.41176 v 2.16417 l 1.53214,0.15097"
-     id="flecha8" />
+     d="m 175.29598,476.76194 -1.53214,-0.15097 v -2.16417 l 2.16678,2.41176 -2.16678,2.43187 v -2.69314 H 66.034037 V 370.93316"
+     id="path1-4-6-1"
+     sodipodi:nodetypes="ccccccc" />
   <path
      style="font-variation-settings:'wght' 700;fill:none;fill-opacity:1;stroke:#cccccc;stroke-width:1.75;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-     d="m 117.69986,375.57271 v 45.40584 H 392.1445 l 0.0859,-61.07602 -0.0734,2.58594 h 2.59179 l -2.50445,-3.36997 -2.56982,3.37768 2.46303,0.009"
-     id="flecha5" />
+     d="m 392.13755,357.79807 -2.46303,-0.009 2.56982,-3.37768 2.50445,3.36997 H 392.157 l 0.0734,-2.58594 -0.0859,61.07602 H 117.69986 V 370.8656"
+     id="path1-4-6-6"
+     sodipodi:nodetypes="ccccccccc" />
   <path
      style="font-variation-settings:'wght' 700;fill:none;fill-opacity:1;stroke:#cccccc;stroke-width:1.47955;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-     d="M 179.35857,170.18909 H 300.4972 v 2.61941 l 2.43648,-2.3653 -2.43648,-2.34574 v 2.10493 l 1.72284,0.14683"
-     id="flecha3" />
+     d="M 179.35857,165.48198 H 300.4972 v 2.61941 l 2.43648,-2.3653 -2.43648,-2.34574 v 2.10493 l 1.72284,0.14683"
+     id="path1-4-6-0"
+     sodipodi:nodetypes="ccccccc" />
   <path
      style="font-variation-settings:'wght' 700;fill:none;fill-opacity:1;stroke:#cccccc;stroke-width:1.75;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-     d="m 391.56038,328.92598 v -55.18897 h 97.58073 v -35.23402 h -98.50982"
-     id="flecha6" />
+     d="M 391.56038,324.21887 V 269.0299 h 97.58073 v -33.23402 h -96.50982"
+     id="path2"
+     sodipodi:nodetypes="ccccc" />
   <path
      style="font-variation-settings:'wght' 700;fill:none;fill-opacity:1;stroke:#cccccc;stroke-width:1.75;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-     d="m 391.76042,181.31648 v 57.18897 h -97.58073 v 35.23402 h 96.50982"
-     id="flecha7" />
+     d="m 391.76042,176.60937 v 59.18897 h -97.58073 v 33.23402 h 96.50982"
+     id="path2-4"
+     sodipodi:nodetypes="ccccc" />
   <path
-     style="font-variation-settings:'wght' 700;fill:none;fill-opacity:1;stroke:#cccccc;stroke-width:1.51812;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-     d="m 258.78163,510.04545 c -0.0581,37.02932 0.008,92.16998 -0.0177,128.92171 h 54.77313 c -0.0968,20.03298 0.0493,22.09513 -0.22729,42.13615 l 0.14567,-1.82844 h 2.08814 l -2.32702,2.58579 -2.34643,-2.58579 h 2.5985"
-     id="flechaF4" />
+     style="font-variation-settings:'wght' 700;fill:none;fill-opacity:1;stroke:#cccccc;stroke-width:1.75;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+     d="M 458.125,677.75 H 7.5"
+     id="path4" />
 </svg>
-
-
-<script src="gsap.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script> 
-<script src="mindMapAnimation.js"></script>
-</body>
-</html>
