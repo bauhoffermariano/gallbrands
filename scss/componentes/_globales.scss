@@ -14,6 +14,7 @@ section {
   // height: 100vh;
   // width: 100vw;
   border-bottom: 2px solid white;
+  overflow-x: hidden;
 }
 .container{
   max-width: v.$desktopBig;
