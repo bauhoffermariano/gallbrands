@@ -58,49 +58,40 @@ const logoBelen= document.getElementById("logoBelen");
 const logoGallmarquez= document.getElementById("logoGallmarquez");
 const arrayLogo = [logoYamatec, logoUdana, logoSound, logoX, logoBelen, logoGallmarquez];
 
-// let tweedYamatec = tlMindmap.to(flechaF1,{strokeDashoffset:0})
-//                             .from(logoYamatec,{opacity:0});
-// let tweedUdana = gsap.to(flechaF2,{strokeDashoffset:0})
-//                             .from(logoUdana,{opacity:0});
-// let tweedSound = gsap.to(flechaF3,{strokeDashoffset:0})
-//                             .from(logoSound,{opacity:0});
 
-
-
-const tlMindmap = gsap.timeline({delay:.5});
+const tlMindmap = gsap.timeline();
 
 tlMindmap.from(dueño,{opacity:0})
-        //  .to(flecha1,{strokeDashoffset:0})
-        //  .from(no1, {opacity:0},"<50%")
-        //  .from(agenda,{opacity:0})
-        //  .to(flecha2,{strokeDashoffset:0})
-        //  .from(si1, {opacity:0},"<50%")
-        //  .from(posicionarMarca,{opacity:0})
-        //  .to(flecha3,{strokeDashoffset:0})
-        //  .from(si2, {opacity:0},"<50%")
-        //  .from(branding,{opacity:0})
-        //  .to(flecha4,{strokeDashoffset:0})
-        //  .from(no2, {opacity:0},"<50%")
-        //  .from(excelente,{opacity:0})
-        //  .from(iconoLike,{opacity:0,scale:.5,transformOrigin:"50% 50%", ease:"bounce.out",duration:.8},"<")
-        //  .from(aumentarVentas,{opacity:0})
-        //  .to(flecha5,{strokeDashoffset:0})
-        //  .from(si3, {opacity:0},"<50%")
-        //  .from(estrategia,{opacity:0})
-        //  .to(flecha6,{strokeDashoffset:0})
-        //  .to(flecha7,{strokeDashoffset:0},"<")
-        //  .from(agendaBig,{opacity:0})
-        //  .from(agendaBigBg,{opacity:0},"<")
-        //  .to(flecha8,{strokeDashoffset:0})
-        //  .from(no3, {opacity:0},"<10%")
+         .to(flecha1,{strokeDashoffset:0})
+         .from(no1, {opacity:0},"<50%")
+         .from(agenda,{opacity:0})
+         .to(flecha2,{strokeDashoffset:0})
+         .from(si1, {opacity:0},"<50%")
+         .from(posicionarMarca,{opacity:0})
+         .to(flecha3,{strokeDashoffset:0})
+         .from(si2, {opacity:0},"<50%")
+         .from(branding,{opacity:0})
+         .to(flecha4,{strokeDashoffset:0})
+         .from(no2, {opacity:0},"<50%")
+         .from(excelente,{opacity:0})
+         .from(iconoLike,{opacity:0,scale:.5,transformOrigin:"50% 50%", ease:"bounce.out",duration:.8},"<")
+         .from(aumentarVentas,{opacity:0})
+         .to(flecha5,{strokeDashoffset:0})
+         .from(si3, {opacity:0},"<50%")
+         .from(estrategia,{opacity:0})
+         .to(flecha6,{strokeDashoffset:0})
+         .to(flecha7,{strokeDashoffset:0},"<")
+         .from(agendaBig,{opacity:0})
+         .from(agendaBigBg,{opacity:0},"<")
+         .to(flecha8,{strokeDashoffset:0})
+         .from(no3, {opacity:0},"<10%")
+         .from(camino,{opacity:0})
+         .from(iconoTick,{opacity:0,scale:.5,transformOrigin:"50% 50%", ease:"bounce.out",duration:.8},"<")
     
-
-
-
-         .to(flechaF1,{strokeDashoffset:0},)
-         .from(logoYamatec,{opacity:0},"<+80%")
-         .to(flechaF2,{strokeDashoffset:0},"=")
-         .from(logoUdana,{opacity:0},"<+80%")
+         .to(flechaF1,{strokeDashoffset:0},"<")
+         .from(logoYamatec,{opacity:0},)
+         .to(flechaF2,{strokeDashoffset:0},"<")
+         .from(logoUdana,{opacity:0},)
          .to(flechaF3,{strokeDashoffset:0},"<")
          .from(logoSound,{opacity:0},"<+80%")
          .to(flechaF4,{strokeDashoffset:0},"<")

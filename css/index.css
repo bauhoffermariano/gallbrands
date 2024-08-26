@@ -585,7 +585,13 @@ section {
   width: 100%;
   margin: 0 auto;
 }
+.hero .hero__ani .hero__mindmap--mask {
+  position: absolute;
+  background-color: #2b80f0;
+  height: 100%;
+  width: 100%;
+}
 .hero .hero__ani .hero__mindmap {
-  height: inherit;
   position: relative;
+  background-color: rgba(202, 58, 58, 0.3960784314);
 }/*# sourceMappingURL=index.css.map */

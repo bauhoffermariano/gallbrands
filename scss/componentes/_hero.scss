@@ -55,9 +55,28 @@
     margin: 0 auto;
     // background-color: #ff03ab52;
 
+    .hero__mindmap--mask{
+      position: absolute;
+      background-color: #2b80f0;
+      height: 100%;
+      width: 100%;
+    }
+
     .hero__mindmap{
-        height: inherit;
         position: relative;
+        // @include m.flexbox(center,center,row){}
+        background-color: #ca3a3a65;
+        // height: 600px;
+        // width: 100%;
+
+
+        // .mindMap{
+        //   margin-top: 50%;
+        //   width: 100%;
+        //    height: 200%;
+        // }
+
+
     }
   }
 }
