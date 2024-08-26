@@ -59,7 +59,17 @@ const logoGallmarquez= document.getElementById("logoGallmarquez");
 const arrayLogo = [logoYamatec, logoUdana, logoSound, logoX, logoBelen, logoGallmarquez];
 
 
-const tlMindmap = gsap.timeline({ delay: 3});
+const tlMindmap = gsap.timeline({
+  scrollTrigger:{
+    trigger: ".hero__ani",
+    scrub: true,
+    markers:true,
+    pin:true,
+    pinSpacing:true,
+    start: "top 10%",
+    end: "500% center"
+  }
+});
 
 tlMindmap.from(dueño,{opacity:0})
          .to(flecha1,{strokeDashoffset:0})

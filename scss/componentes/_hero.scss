@@ -50,9 +50,11 @@
       }
     }
   }
+  //si quiero agrandar el ancho de este elemento tengo que cambiar 
+  // el tamaño maximo de las secciones 120rem
   .hero__ani {
     position: relative;
-    height: clamp(28.75rem, 9.107rem + 98.214vw, 56.25rem);
+    height: clamp(31.25rem, 13.393rem + 89.286vw, 56.25rem);
     width: 100%;
     backdrop-filter: blur(50px);
     -webkit-backdrop-filter: blur(50px);
