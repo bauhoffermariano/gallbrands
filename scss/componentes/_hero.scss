@@ -54,7 +54,7 @@
   // el tamaño maximo de las secciones 120rem
   .hero__ani {
     position: relative;
-    height: clamp(31.25rem, 13.393rem + 89.286vw, 56.25rem);
+    height: calc(clamp(31.25rem, 13.393rem + 89.286vw, 56.25rem)+1rem);
     width: 100%;
     backdrop-filter: blur(50px);
     -webkit-backdrop-filter: blur(50px);

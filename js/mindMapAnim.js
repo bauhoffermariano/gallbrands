@@ -67,7 +67,7 @@ const tlMindmap = gsap.timeline({
     pin:true,
     pinSpacing:true,
     start: "top 10%",
-    end: "500% 100%"
+    end: "500% top"
   }
 });
 
