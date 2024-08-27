@@ -65,6 +65,7 @@ const arrayLogo = [
 
 let mmMobile = gsap.matchMedia();
 let mmDesktop = gsap.matchMedia();
+let mmTabletSmall = gsap.matchMedia();
 
 let funcTimelines = function (timelines) {
   timelines
@@ -129,8 +130,24 @@ let funcTimelines = function (timelines) {
     .from(logoGallmarquez, { opacity: 0 }, "<+80%");
 };
 
-mmMobile.add("(max-width: 768px)", () => {
+mmMobile.add("(max-width: 601px)", () => {
   let tlMindmap = gsap.timeline({
+    scrollTrigger: {
+      trigger:heroContainer,
+      scrub: true,
+      markers: true,
+      pin: true,
+      //   pinSpacing:true,
+      start: "20% top",
+      end: "500% bottom",
+    },
+  });
+
+  funcTimelines(tlMindmap)
+});
+
+mmTabletSmall.add("(min-width:601px) and (max-width: 768px)", () => {
+  let tlMindmap2 = gsap.timeline({
     scrollTrigger: {
       trigger: heroContainer,
       scrub: true,
@@ -138,11 +155,9 @@ mmMobile.add("(max-width: 768px)", () => {
       pin: true,
       //   pinSpacing:true,
       start: "25% top",
-      end: "500% bottom",
+      end: "500% 10%",
     },
   });
 
-  funcTimelines(tlMindmap)
-
-
+  funcTimelines(tlMindmap2)
 });

@@ -19,18 +19,26 @@ section {
   max-width: v.$desktopBig;
   padding: 0 1rem;
 
+  @include tabletSmall{
+    padding: 0 3rem;
+  }
+
+  @include tablet{
+    padding: 0 4rem;
+  }
   @include m.desktop{
-    padding: 0 2rem;
+    // padding: 0 2rem;
   }
   @include m.desktopBig{
-    padding: 0 2rem;
+    // padding: 0 2rem;
   }
   @include m.desktopBiggest{
-    padding: 0 0rem;
+    // padding: 0 0rem;
   }
-  
-
 }
+
+
+
 .img__container {
   display: flex;
   justify-content: center;

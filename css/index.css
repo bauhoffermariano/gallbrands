@@ -327,22 +327,16 @@ section {
   max-width: 1440px;
   padding: 0 1rem;
 }
-@media (min-width: 1280px) {
+@media (min-width: 600px) {
   .container {
-    padding: 0 2rem;
+    padding: 0 3rem;
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 768px) {
   .container {
-    padding: 0 2rem;
+    padding: 0 4rem;
   }
 }
-@media (min-width: 1920px) {
-  .container {
-    padding: 0 0rem;
-  }
-}
-
 .img__container {
   display: flex;
   justify-content: center;
@@ -537,21 +531,42 @@ section {
 }
 
 .hero {
+  height: auto;
   margin: 0 auto;
   font-family: "raleway";
   color: #cccccc;
+  padding-bottom: 6rem;
+  border-bottom: 1px solid white;
+  box-shadow: rgba(204, 204, 204, 0.0549019608) 0px 1px 1px 0px inset, rgba(204, 204, 204, 0.0549019608) 0px 50px 100px -20px, rgba(204, 204, 204, 0.0549019608) 0px 30px 60px -50px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: clamp(1rem, -0.4rem + 7vw, 8rem);
 }
+@media (min-width: 600px) {
+  .hero {
+    padding-bottom: 10rem;
+  }
+}
 @media (min-width: 1024px) {
   .hero {
+    height: calc(100dvh - 5rem);
+    padding-bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
+  }
+}
+@media (min-width: 1280px) {
+  .hero {
+    height: calc(100dvh - 6.5rem);
+  }
+}
+@media (min-width: 1440px) {
+  .hero {
+    height: calc(100dvh - 7rem);
   }
 }
 .hero .hero__text {
@@ -560,8 +575,13 @@ section {
   align-items: flex-start;
   flex-direction: column;
   margin-top: clamp(3rem, 0.857rem + 10.714vw, 6rem);
-  margin-bottom: 1rem;
   gap: clamp(1.5rem, 0.429rem + 5.357vw, 3rem);
+}
+@media (min-width: 600px) {
+  .hero .hero__text .cta__btn {
+    transform: scale(1.2);
+    transform-origin: left;
+  }
 }
 @media (min-width: 1024px) {
   .hero .hero__text {
@@ -589,7 +609,6 @@ section {
 }
 .hero .hero__ani {
   position: relative;
-  height: 80vh;
   width: 100%;
   backdrop-filter: blur(50px);
   -webkit-backdrop-filter: blur(50px);
@@ -601,21 +620,14 @@ section {
   align-items: center;
   flex-direction: row;
 }
-.hero .hero__ani .mindMap {
-  margin: 1rem;
-  position: absolute;
-  width: auto;
-  height: auto;
-  top: 0;
-  left: 0;
-}
 @media (min-width: 1280px) {
   .hero .hero__ani {
-    height: 400px;
+    height: 60vh;
   }
 }
-@media (min-width: 1440px) {
-  .hero .hero__ani {
-    height: 500px;
-  }
+.hero .mindMap {
+  margin: clamp(1rem, 0.286rem + 3.571vw, 2rem);
+  width: auto;
+  top: 0;
+  left: 0;
 }/*# sourceMappingURL=index.css.map */
