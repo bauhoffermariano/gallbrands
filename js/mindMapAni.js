@@ -202,7 +202,7 @@ mmMobile.add("(max-width: 601px)", () => {
     scrollTrigger: {
       trigger:heroContainer,
       scrub: true,
-      // markers: true,
+      markers: true,
       pin: true,
       start: "20% top",
       end: "500% bottom",

@@ -92,6 +92,8 @@
     top: 0;
     left: 0;
     overflow: visible;
+    
+   
 
     @include m.desktop {
       margin: 1rem 0;
@@ -110,4 +112,11 @@
   width: 100%;
   background-color: v.$blanco;
   height: 1px;
+}
+
+
+svg{
+  text{
+    color:red
+  }
 }

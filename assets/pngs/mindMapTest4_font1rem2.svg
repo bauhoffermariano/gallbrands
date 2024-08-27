@@ -1,75 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-   <meta charset="UTF-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
-      rel="stylesheet">
-
-   <link rel="stylesheet" href="css/index.css" />
-
-   <title>Countdown Timer</title>
-</head>
-
-<body>
-   <div class="main__container">
-      <nav class="cta" id="cta">
-         <div class="cta__logo img__container">
-            <img src="assets/pngs/logo.svg" alt="Logo" />
-         </div>
-         <div class="count__container" id="countEnd" style="display: none;">
-            <p>termino papito</p>
-         </div>
-         <div class="count__container" id="countRun">
-            <div class="count__days">
-               <span class="days__number" id="days"></span>
-               <span class="days__text">dias</span>
-            </div>
-            <div class="count__hours">
-               <span class="hour__number" id="hours"></span>
-               <span class="hours__text">hrs</span>
-            </div>
-            <div class="count__minutes">
-               <span class="minutes__number" id="minutes"></span>
-               <span class="minutes__text">min</span>
-            </div>
-            <div class="count__seconds">
-               <span class="seconds__number" id="seconds"></span>
-               <span class="seconds__text">seg</span>
-            </div>
-         </div>
-         <div class="cta__cta">
-            <button class="cta__btn" id="ctaBtn">AGENDATE
-            </button>
-         </div>
-         <div class="cta__mask"></div>
-      </nav>
-
-      <section class="hero container" id="heroContainer">
-         <div class="hero__text">
-            <h1 class="hero__title">EL TITULO DE LA WEB</h1>
-            <h3 class="hero__subtitle">el subtitulo de la web, aca se refuerza el titulo ampliando la informacion
-               </h1>
-               <button class="cta__btn" id="ctaBtn">OTRO CTA
-               </button>
-         </div>
-         <div class="hero__ani" id="heroAni">
-
-
-            <svg
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
    id="mindMap"
    class="mindMap"
    viewBox="0 0 660.76867 875.51828"
    version="1.1"
-   width="auto"
-   height="auto"
+   width="660.76868"
+   height="875.51825"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
@@ -618,23 +554,3 @@
        id="tspan7"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:Raleway;-inkscape-font-specification:'Raleway, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400">de estas marcas</tspan></text>
 </svg>
-
-         </div>
-         <!-- <div class="separador__hero"></div> -->
-         <div class="bg__hero" id="bgHero"></div>
-      </section>
-      <section class="secondary">
-      </section>
-      <section class="terciary"></section>
-   </div>
-   <script src="https://unpkg.com/lenis@1.1.11/dist/lenis.min.js"></script>
-   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
-   <script src="https://cdn.jsdelivr.net/npm/tsparticles-slim@2.0.6/tsparticles.slim.bundle.min.js"></script>
-   <script src="js/lenis.js"></script>
-   <!-- <script src="js/app.js"></script> -->
-   <script src="js/mindMapAni.js"></script>
-   <script src="js/count.js"></script>
-</body>
-
-</html>

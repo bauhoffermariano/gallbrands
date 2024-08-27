@@ -86,8 +86,7 @@ a {
 abbr[title] {
   border-bottom: none; /* 1 */
   text-decoration: underline; /* 2 */
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted; /* 2 */
+  text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -658,4 +657,8 @@ section {
   width: 100%;
   background-color: #cccccc;
   height: 1px;
+}
+
+svg text {
+  color: red;
 }/*# sourceMappingURL=index.css.map */
