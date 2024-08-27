@@ -589,7 +589,8 @@ section {
 }
 .hero .hero__ani {
   position: relative;
-  height: clamp(28.75rem, 9.151rem + 97.996vw, 56.25rem);
+  height: 100%;
+  min-height: 550px;
   width: 100%;
   backdrop-filter: blur(50px);
   -webkit-backdrop-filter: blur(50px);
@@ -602,25 +603,16 @@ section {
   align-items: center;
   flex-direction: row;
 }
-.hero .hero__ani .hero__mindmap {
-  width: 100%;
+.hero .hero__ani .mindMap {
   position: absolute;
+  width: 100%;
   top: 0;
   left: 0;
-  padding: 0.5rem 0.5rem;
-}
-@media (min-width: 768px) {
-  .hero .hero__ani .hero__mindmap {
-    width: 80%;
-    padding: 0.8rem 0.5rem;
-  }
+  height: 100%;
 }
 @media (min-width: 1280px) {
   .hero .hero__ani {
     height: 400px;
-  }
-  .hero .hero__ani .hero__mindmap {
-    padding: 0.5rem;
   }
 }
 @media (min-width: 1440px) {
