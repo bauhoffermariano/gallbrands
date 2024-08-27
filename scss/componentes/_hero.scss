@@ -95,6 +95,7 @@
       width: auto;
       top: 0;
       left: 0;
+      overflow: visible;
 
       @include m.desktop{
         margin: 1rem 0;

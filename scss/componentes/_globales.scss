@@ -12,12 +12,8 @@ body {
 }
 section {
   overflow-x: hidden;
-  // height: 100vh;
-  // border-bottom: 2px solid white;
 }
 .container{
-  // max-width: v.$desktopBig;
-  // @include m.centrarHorizontal;
   padding: 0 1rem;
 
   @include tabletSmall{
@@ -26,9 +22,6 @@ section {
 
   @include tablet{
     padding: 0 4rem;
-  }
-  @include m.desktop{
-    // max-width: 80rem;
   }
   @include m.desktopBig{
     max-width: 100rem;
