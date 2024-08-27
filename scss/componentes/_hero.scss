@@ -8,7 +8,6 @@
   padding-bottom: 6rem;
   @include m.font-raleway(1rem, 400, normal);
 
-
   // box-shadow: v.$blancoTransparent2 0px 1px 1px 0px inset, v.$blancoTransparent2 0px 50px 100px -20px, v.$blancoTransparent2 0px 30px 60px -50px;
   @include m.flexbox(center, center, column) {
     gap: clamp(1rem, -0.4rem + 7vw, 8rem);
@@ -31,19 +30,36 @@
   }
 
   .hero__text {
-    @include m.flexbox(center, flex-start, column) {
-      margin-top: clamp(3rem, 0.857rem + 10.714vw, 6rem);
-      gap: clamp(1.5rem, 0.429rem + 5.357vw, 3rem);
+    height: 100dvh;
+    @include m.flexbox(space-evenly, flex-start, column) {
+      // margin-top: clamp(3rem, 0.857rem + 10.714vw, 6rem);
+      // gap: clamp(1.5rem, 0.429rem + 5.357vw, 3rem);
+      // gap: 5rem;
+    }
+    .cta__btn {
+      transform: scale(1.5);
+      transform-origin: left;
+      // align-self: center;
+    }
+
+    .scrollDown{
+      background-color: transparent;
+      border: white solid 1px;
+      color: v.$blanco;
+      align-self: flex-end; 
     }
 
     @include m.tabletSmall {
-      .cta__btn {
-        // align-self: center;
-        transform: scale(1.2);
-        transform-origin: left;
-      }
+      // .cta__btn {
+      //   // align-self: center;
+      //   // transform: scale(1.2);
+      //   // transform-origin: left;
+      // }
     }
     @include m.desktopSmall {
+      .cta__btn{
+        align-self: flex-start;
+      }
       margin-top: 0;
     }
 
@@ -65,8 +81,7 @@
       }
     }
   }
-  //si quiero agrandar el ancho de este elemento tengo que cambiar
-  // el tamaño maximo de las secciones 120rem
+
   .hero__ani {
     position: relative;
     width: 100%;
@@ -92,8 +107,6 @@
     top: 0;
     left: 0;
     overflow: visible;
-    
-   
 
     @include m.desktop {
       margin: 1rem 0;
@@ -106,17 +119,10 @@
   }
 }
 
-.separador__hero{
+.separador__hero {
   position: absolute;
   bottom: 0;
   width: 100%;
   background-color: v.$blanco;
   height: 1px;
-}
-
-
-svg{
-  text{
-    color:red
-  }
 }
