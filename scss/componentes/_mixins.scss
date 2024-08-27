@@ -1,5 +1,20 @@
 @use "variables" as v;
 
+@mixin font-jetbrains($size, $weight, $style: normal) {
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: $weight;
+  font-style: $style;
+  font-size: $size;
+}
+@mixin font-raleway($size, $weight, $style: normal) {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: $weight;
+  font-style: $style;
+  font-size: $size;
+}
+
 @mixin flexbox($justify, $align, $direction) {
   display: flex;
   justify-content: $justify;
@@ -55,24 +70,34 @@
   }
 }
 
-@mixin arrow-1(){
+@mixin arrow-1() {
   .arrow-1 {
-    width:100px;
-    height:30px;
+    width: 100px;
+    height: 30px;
     display: flex;
   }
   .arrow-1:before {
     content: "";
     background: currentColor;
-    width:15px;
-    clip-path: polygon(0 10px,calc(100% - 15px) 10px,calc(100% - 15px) 0,100% 50%,calc(100% - 15px) 100%,calc(100% - 15px) calc(100% - 10px),0 calc(100% - 10px));
+    width: 15px;
+    clip-path: polygon(
+      0 10px,
+      calc(100% - 15px) 10px,
+      calc(100% - 15px) 0,
+      100% 50%,
+      calc(100% - 15px) 100%,
+      calc(100% - 15px) calc(100% - 10px),
+      0 calc(100% - 10px)
+    );
     animation: a1 1.5s infinite linear;
   }
   @keyframes a1 {
-    90%,100%{flex-grow: 1}
+    90%,
+    100% {
+      flex-grow: 1;
+    }
   }
 }
-
 
 //HOVER.CSS
 // prefix declarations

@@ -1,7 +1,7 @@
-@font-face{
-    font-family: 'roboto';
-    src: url('../../assets/fonts/Roboto/Roboto-Black.ttf') format(trueType);
-}
+// @font-face{
+//     font-family: 'roboto';
+//     src: url('../../assets/fonts/Roboto/Roboto-Black.ttf') format(trueType);
+// }
 // @font-face{
 //     font-family: 'raleway';
 //     src: url('../../assets/fonts/Raleway/Raleway-VariableFont_wght.ttf') format(woff);
@@ -13,7 +13,14 @@
     font-weight: 400;
     font-style: normal;
 }
-@font-face{
-    font-family: 'rajdhani';
-    src: url('../../assets/fonts/Rdjhani/Rajdhani-Light.ttf') format(trueType);
-}
+
+.font-jetbrainsmono {
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+// @font-face{
+//     font-family: 'rajdhani';
+//     src: url('../../assets/fonts/Rdjhani/Rajdhani-Light.ttf') format(trueType);
+// }
