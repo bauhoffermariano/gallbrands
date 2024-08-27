@@ -202,7 +202,7 @@ mmMobile.add("(max-width: 601px)", () => {
     scrollTrigger: {
       trigger:heroContainer,
       scrub: true,
-      markers: true,
+      // markers: true,
       pin: true,
       start: "20% top",
       end: "500% bottom",
@@ -217,7 +217,7 @@ mmTabletSmall.add("(min-width:601px) and (max-width: 768px)", () => {
     scrollTrigger: {
       trigger: heroContainer,
       scrub: true,
-      markers: true,
+      // markers: true,
       pin: true,
       start: "25% top",
       end: "500% 10%",
@@ -232,7 +232,7 @@ mmDesktop.add("(min-width:1024px)", () => {
     scrollTrigger: {
       trigger: ".main__container",
       scrub: true,
-      markers: true,
+      // markers: true,
       pin: true,
       start: "top top",
       end: "1000% center",
