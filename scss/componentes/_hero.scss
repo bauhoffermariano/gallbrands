@@ -58,7 +58,7 @@
       font-size: clamp(3rem, 1.571rem + 7.143vw, 5rem);
 
       @include m.desktopSmall {
-        font-size: clamp(5rem, 1rem + 5vw, 7rem);
+        font-size: clamp(5rem, 3rem + 2.5vw, 6rem);
       }
     }
     h3 {
@@ -82,6 +82,7 @@
     border: solid 1px white;
     border-radius: .2rem 1rem .2rem 1rem;
     overflow: hidden;
+
     @include m.flexbox(center, center, row) {
     }
     @include m.desktop{
