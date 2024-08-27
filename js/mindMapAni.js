@@ -1,4 +1,5 @@
 const heroContainer = document.getElementById("heroContainer");
+const mindMapContainer = document.getElementById("mindMap");
 
 //texto
 const dueño = document.getElementById("owner");
@@ -117,17 +118,83 @@ let funcTimelines = function (timelines) {
     )
 
     .to(flechaF1, { strokeDashoffset: 0 }, "<")
-    .from(logoYamatec, { opacity: 0 })
+    .from(logoYamatec, { opacity: 0 },"< +50%")
     .to(flechaF2, { strokeDashoffset: 0 }, "<")
-    .from(logoUdana, { opacity: 0 })
+    .from(logoUdana, { opacity: 0 },"< +50%")
     .to(flechaF3, { strokeDashoffset: 0 }, "<")
-    .from(logoSound, { opacity: 0 }, "<+80%")
+    .from(logoSound, { opacity: 0 }, "< +50%")
     .to(flechaF4, { strokeDashoffset: 0 }, "<")
-    .from(logoX, { opacity: 0 }, "<+80%")
+    .from(logoX, { opacity: 0 }, "< +50%")
     .to(flechaF5, { strokeDashoffset: 0 }, "<")
-    .from(logoBelen, { opacity: 0 }, "<+80%")
+    .from(logoBelen, { opacity: 0 }, "< +50%")
     .to(flechaF6, { strokeDashoffset: 0 }, "<")
-    .from(logoGallmarquez, { opacity: 0 }, "<+80%");
+    .from(logoGallmarquez, { opacity: 0 }, "< +60%");
+};
+
+let funcTimelinesDesktop = function (timelines) {
+  timelines
+    .from(dueño, { opacity: 0 })
+    .to(flecha1, { strokeDashoffset: 0 })
+    .from(no1, { opacity: 0 }, "<50%")
+    .from(agenda, { opacity: 0 })
+    .to(flecha2, { strokeDashoffset: 0 })
+    .from(si1, { opacity: 0 }, "<50%")
+    .from(posicionarMarca, { opacity: 0 })
+    .to(flecha3, { strokeDashoffset: 0 })
+    .from(si2, { opacity: 0 }, "<50%")
+    .from(branding, { opacity: 0 })
+    .to(flecha4, { strokeDashoffset: 0 })
+    .from(no2, { opacity: 0 }, "<50%")
+    .from(excelente, { opacity: 0 })
+    .from(
+      iconoLike,
+      {
+        opacity: 0,
+        scale: 0.5,
+        transformOrigin: "50% 50%",
+        ease: "bounce.out",
+        duration: 0.8,
+      },
+      "<"
+    )
+    .from(aumentarVentas, { opacity: 0 })
+    .to(flecha5, { strokeDashoffset: 0 })
+    .to(mindMapContainer,{y:"-10%"},"<") 
+    .from(si3, { opacity: 0 }, "<50%")
+    .from(estrategia, { opacity: 0 })
+    .to(flecha6, { strokeDashoffset: 0 })
+    .to(flecha7, { strokeDashoffset: 0 }, "<")
+    .from(agendaBig, { opacity: 0 })
+    .from(agendaBigBg, { opacity: 0 }, "<")
+    .to(flecha8, { strokeDashoffset: 0 })
+    .from(no3, { opacity: 0 }, "<10%")
+    .to(mindMapContainer,{y:"-20%"},"<")
+    .from(camino, { opacity: 0 })
+    .from(
+      iconoTick,
+      {
+        opacity: 0,
+        scale: 0.5,
+        transformOrigin: "50% 50%",
+        ease: "bounce.out",
+        duration: 0.8,
+      },
+      "<"
+    )
+    .to(mindMapContainer,{y:"-50%"})
+    .to(flechaF1,{strokeDashoffset: 0},"<+4%")
+    .to(flechaF2,{strokeDashoffset: 0},"<+8%")
+    .to(flechaF3,{strokeDashoffset: 0},"<+12%")
+    .to(flechaF4,{strokeDashoffset: 0},"<+16%")
+    .to(flechaF5,{strokeDashoffset: 0},"<+20%")
+    .to(flechaF6,{strokeDashoffset: 0},"<+24%")
+    .from(logoYamatec, { opacity: 0 }, "<")
+    .from(logoUdana, { opacity: 0 }, "<+4%")
+    .from(logoSound, { opacity: 0 }, "<+8%")
+    .from(logoX, { opacity: 0 }, "<+12%")
+    .from(logoBelen, { opacity: 0 }, "<+16%")
+    .from(logoGallmarquez, { opacity: 0 }, "<+20%")
+
 };
 
 mmMobile.add("(max-width: 601px)", () => {
@@ -137,7 +204,6 @@ mmMobile.add("(max-width: 601px)", () => {
       scrub: true,
       markers: true,
       pin: true,
-      //   pinSpacing:true,
       start: "20% top",
       end: "500% bottom",
     },
@@ -153,11 +219,25 @@ mmTabletSmall.add("(min-width:601px) and (max-width: 768px)", () => {
       scrub: true,
       markers: true,
       pin: true,
-      //   pinSpacing:true,
       start: "25% top",
       end: "500% 10%",
     },
   });
 
   funcTimelines(tlMindmap2)
+});
+
+mmDesktop.add("(min-width:1024px)", () => {
+  let tlMindmapDesktop = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".main__container",
+      scrub: true,
+      markers: true,
+      pin: true,
+      start: "top top",
+      end: "1000% center",
+    },
+  });
+
+  funcTimelinesDesktop(tlMindmapDesktop)
 });

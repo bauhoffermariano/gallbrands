@@ -16,7 +16,8 @@ section {
   // border-bottom: 2px solid white;
 }
 .container{
-  max-width: v.$desktopBig;
+  // max-width: v.$desktopBig;
+  // @include m.centrarHorizontal;
   padding: 0 1rem;
 
   @include tabletSmall{
@@ -27,13 +28,11 @@ section {
     padding: 0 4rem;
   }
   @include m.desktop{
-    // padding: 0 2rem;
+    // max-width: 80rem;
   }
   @include m.desktopBig{
-    // padding: 0 2rem;
-  }
-  @include m.desktopBiggest{
-    // padding: 0 0rem;
+    max-width: 100rem;
+
   }
 }
 

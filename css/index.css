@@ -324,7 +324,6 @@ section {
 }
 
 .container {
-  max-width: 1440px;
   padding: 0 1rem;
 }
 @media (min-width: 600px) {
@@ -337,6 +336,12 @@ section {
     padding: 0 4rem;
   }
 }
+@media (min-width: 1440px) {
+  .container {
+    max-width: 100rem;
+  }
+}
+
 .img__container {
   display: flex;
   justify-content: center;
@@ -535,8 +540,6 @@ section {
   font-family: "raleway";
   color: #cccccc;
   padding-bottom: 6rem;
-  border-bottom: 1px solid white;
-  box-shadow: rgba(255, 255, 255, 0.45) 0px 25px 20px -20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -621,7 +624,7 @@ section {
 }
 @media (min-width: 1280px) {
   .hero .hero__ani {
-    height: 80%;
+    height: 60%;
   }
 }
 .hero .mindMap {
@@ -632,6 +635,12 @@ section {
 }
 @media (min-width: 1280px) {
   .hero .mindMap {
-    height: 140%;
+    margin: 1rem 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 170%;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }/*# sourceMappingURL=index.css.map */
