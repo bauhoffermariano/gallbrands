@@ -8,10 +8,14 @@
   color: v.$blanco;
   padding-bottom: 6rem;
   border-bottom: 1px solid white;
-  box-shadow: v.$blancoTransparent2 0px 1px 1px 0px inset, v.$blancoTransparent2 0px 50px 100px -20px, v.$blancoTransparent2 0px 30px 60px -50px;
+  box-shadow: rgba(255, 255, 255, 0.45) 0px 25px 20px -20px;
+
+  // box-shadow: v.$blancoTransparent2 0px 1px 1px 0px inset, v.$blancoTransparent2 0px 50px 100px -20px, v.$blancoTransparent2 0px 30px 60px -50px;
   @include m.flexbox(center, center, column) {
     gap: clamp(1rem, -0.4rem + 7vw, 8rem);
   }
+
+      
 
 
   @include m.tabletSmall{
@@ -81,7 +85,7 @@
     @include m.flexbox(center, center, row) {
     }
     @include m.desktop{
-      height: 60vh;
+      height: 80%;
     }
   }
 
@@ -91,8 +95,14 @@
       top: 0;
       left: 0;
 
+      @include m.desktop{
+        // position: absolute;
+        height: 140%;
+      }
+
 
   }
+  
 
 
 

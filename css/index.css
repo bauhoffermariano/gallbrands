@@ -357,8 +357,7 @@ section {
 
 .bg__hero {
   position: absolute;
-  height: 100%;
-  width: 100%;
+  inset: 0;
   z-index: -1;
   filter: blur(15px);
 }
@@ -537,7 +536,7 @@ section {
   color: #cccccc;
   padding-bottom: 6rem;
   border-bottom: 1px solid white;
-  box-shadow: rgba(204, 204, 204, 0.0549019608) 0px 1px 1px 0px inset, rgba(204, 204, 204, 0.0549019608) 0px 50px 100px -20px, rgba(204, 204, 204, 0.0549019608) 0px 30px 60px -50px;
+  box-shadow: rgba(255, 255, 255, 0.45) 0px 25px 20px -20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -622,7 +621,7 @@ section {
 }
 @media (min-width: 1280px) {
   .hero .hero__ani {
-    height: 60vh;
+    height: 80%;
   }
 }
 .hero .mindMap {
@@ -630,4 +629,9 @@ section {
   width: auto;
   top: 0;
   left: 0;
+}
+@media (min-width: 1280px) {
+  .hero .mindMap {
+    height: 140%;
+  }
 }/*# sourceMappingURL=index.css.map */
