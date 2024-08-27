@@ -4,7 +4,7 @@
 .hero {
   height: auto;
   margin: 0 auto;
-  font-family: "raleway";
+  // font-family: "raleway";
   color: v.$blanco;
   padding-bottom: 6rem;
   // border-bottom: 1px solid white;
@@ -15,10 +15,7 @@
     gap: clamp(1rem, -0.4rem + 7vw, 8rem);
   }
 
-      
-
-
-  @include m.tabletSmall{
+  @include m.tabletSmall {
     padding-bottom: 10rem;
   }
   @include m.desktopSmall {
@@ -26,29 +23,28 @@
     padding-bottom: 0;
     @include m.flexbox(center, center, row) {
     }
-    
   }
-  @include m.desktop{
+  @include m.desktop {
     height: calc(100dvh - 6.5rem);
   }
-  @include m.desktopBig{
+  @include m.desktopBig {
     height: calc(100dvh - 7rem);
   }
 
   .hero__text {
     @include m.flexbox(center, flex-start, column) {
-      margin-top:clamp(3rem, 0.857rem + 10.714vw, 6rem);
-      gap:clamp(1.5rem, 0.429rem + 5.357vw, 3rem);
+      margin-top: clamp(3rem, 0.857rem + 10.714vw, 6rem);
+      gap: clamp(1.5rem, 0.429rem + 5.357vw, 3rem);
     }
 
-    @include m.tabletSmall{
-      .cta__btn{
+    @include m.tabletSmall {
+      .cta__btn {
         // align-self: center;
         transform: scale(1.2);
         transform-origin: left;
       }
     }
-    @include m.desktopSmall{
+    @include m.desktopSmall {
       margin-top: 0;
     }
 
@@ -69,48 +65,50 @@
         font-size: clamp(1.8rem, 1.467rem + 0.694vw, 2.3rem);
       }
     }
-
   }
-  //si quiero agrandar el ancho de este elemento tengo que cambiar 
+  //si quiero agrandar el ancho de este elemento tengo que cambiar
   // el tamaño maximo de las secciones 120rem
   .hero__ani {
     position: relative;
     width: 100%;
-  
+
     backdrop-filter: blur(50px);
     -webkit-backdrop-filter: blur(50px);
     border: solid 1px white;
-    border-radius: .2rem 1rem .2rem 1rem;
+    border-radius: 0.2rem 1rem 0.2rem 1rem;
     overflow: hidden;
 
     @include m.flexbox(center, center, row) {
     }
-    @include m.desktop{
+    @include m.desktop {
       height: 60%;
     }
   }
 
-    .mindMap{  //ESTE MANEJA TODO PA 
-      // margin: clamp(1rem, 0.286rem + 3.571vw, 2rem);
-      padding: 1rem;
-      width: auto;
+  .mindMap {
+    //ESTE MANEJA TODO PA
+    // margin: clamp(1rem, 0.286rem + 3.571vw, 2rem);
+    padding: 1rem;
+    width: auto;
+    top: 0;
+    left: 0;
+    overflow: visible;
+
+    @include m.desktop {
+      margin: 1rem 0;
       top: 0;
       left: 0;
-      overflow: visible;
-
-      @include m.desktop{
-        margin: 1rem 0;
-        top: 0;
-        left: 0;
-        position: absolute;
-        height: 170%;
-        @include m.centrarHorizontal()
-      }
-
-
+      position: absolute;
+      height: 170%;
+      @include m.centrarHorizontal();
+    }
   }
-  
+}
 
-
-
+.separador__hero{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: v.$blanco;
+  height: 1px;
 }

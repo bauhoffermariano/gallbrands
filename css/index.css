@@ -2,10 +2,13 @@
   font-family: "roboto";
   src: url("../../assets/fonts/Roboto/Roboto-Black.ttf") format(trueType);
 }
-@font-face {
-  font-family: "raleway";
-  src: url("../../assets/fonts/Raleway/Raleway-VariableFont_wght.ttf") format(woff);
+.font-raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
+
 @font-face {
   font-family: "rajdhani";
   src: url("../../assets/fonts/Rdjhani/Rajdhani-Light.ttf") format(trueType);
@@ -537,7 +540,6 @@ section {
 .hero {
   height: auto;
   margin: 0 auto;
-  font-family: "raleway";
   color: #cccccc;
   padding-bottom: 6rem;
   display: flex;
@@ -644,4 +646,12 @@ section {
     left: 50%;
     transform: translateX(-50%);
   }
+}
+
+.separador__hero {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #cccccc;
+  height: 1px;
 }/*# sourceMappingURL=index.css.map */
