@@ -628,7 +628,7 @@ section {
   }
 }
 .hero .mindMap {
-  margin: clamp(1rem, 0.286rem + 3.571vw, 2rem);
+  padding: 1rem;
   width: auto;
   top: 0;
   left: 0;
