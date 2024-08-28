@@ -30,19 +30,26 @@
   }
 
   .hero__text {
+    position: relative;
     height: 100dvh;
     @include m.flexbox(space-evenly, flex-start, column) {
       // margin-top: clamp(3rem, 0.857rem + 10.714vw, 6rem);
       // gap: clamp(1.5rem, 0.429rem + 5.357vw, 3rem);
       // gap: 5rem;
     }
-    .cta__btn {
-      transform: scale(1.5);
-      transform-origin: left;
-      // align-self: center;
+    .cta__btn { 
+      width: 7.5rem;
+      height: 2rem;
+      @include m.tabletSmall{
+        font-size: medium;
+        width: 8rem;
+        height: 2.5rem;
+      }
+
     }
 
-    .scrollDown{
+    .scrolldown{
+
       background-color: transparent;
       border: white solid 1px;
       color: v.$blanco;

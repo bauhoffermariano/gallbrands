@@ -14,6 +14,13 @@
   font-style: $style;
   font-size: $size;
 }
+@mixin font-rajdhani($size, $weight, $style: normal) {
+  font-family: "Rajdhani", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: $weight;
+  font-style: $style;
+  font-size: $size;
+}
 
 @mixin flexbox($justify, $align, $direction) {
   display: flex;

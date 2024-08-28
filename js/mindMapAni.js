@@ -200,12 +200,12 @@ let funcTimelinesDesktop = function (timelines) {
 mmMobile.add("(max-width: 601px)", () => {
   let tlMindmap = gsap.timeline({
     scrollTrigger: {
-      trigger:heroContainer,
+      trigger:"#heroAni",
       scrub: true,
       markers: true,
       pin: true,
-      start: "20% top",
-      end: "500% bottom",
+      start: "-10% 10%",
+      end: "500% 99.5%",
     },
   });
 
@@ -213,7 +213,7 @@ mmMobile.add("(max-width: 601px)", () => {
 });
 
 mmTabletSmall.add("(min-width:601px) and (max-width: 768px)", () => {
-  let tlMindmap2 = gsap.timeline({
+  let tlMindmapTabletSmall = gsap.timeline({
     scrollTrigger: {
       trigger: heroContainer,
       scrub: true,
@@ -224,7 +224,7 @@ mmTabletSmall.add("(min-width:601px) and (max-width: 768px)", () => {
     },
   });
 
-  funcTimelines(tlMindmap2)
+  funcTimelines(tlMindmapTabletSmall)
 });
 
 mmDesktop.add("(min-width:1024px)", () => {

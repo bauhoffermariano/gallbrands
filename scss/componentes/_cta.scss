@@ -6,7 +6,7 @@
     top: 0;
     width: 100%;
     height: 4rem;
-    padding: 0 1rem;
+    padding: 0 .5rem;
     font-family: 'rajdhani', sans-serif;
     z-index: 1;
     border-bottom: solid 1px v.$gris1;
@@ -15,10 +15,11 @@
     @include m.flexbox(center, center, row){
         gap: 1.5rem;
     }
-    // @include m.centrarHorizontal();
+
     @include m.tablet{
         height: 5rem;
         gap: 3rem;
+        padding: 0 1rem;
     }
 
     @include m.desktopSmall{
@@ -35,48 +36,59 @@
     }
 
     .cta__logo{
-        height:50%;
+        height:70%;
         width: 4rem;
-        transform: scale(1.3);
-        flex-grow: 0.1  ;
+        // transform: scale(1.3);
+        // flex-grow: 0.1  ;
 
-        @include m.tablet{
-            width: 4rem;
-        }
-        @include m.desktopSmall{
-            width: 4rem;
-        }
-        @include m.desktop{
-            width: 4rem;
-        }
-        @include m.desktopBig{
-            transform: scale(1.5);
-        }
+        // @include m.tablet{
+        //     width: 4rem;
+        // }
+        // @include m.desktopSmall{
+        //     width: 4rem;
+        // }
+        // @include m.desktop{
+        //     width: 4rem;
+        // }
+        // @include m.desktopBig{
+        //     transform: scale(1.5);
+        // }
     }
     
 
     .count__container{
         position: relative;
+        min-width: 100px;
         @include m.flexbox(center, center, row){}
-        gap: .5rem;
+        gap: .2rem;
         color: v.$blanco;
 
         border-top: solid v.$blanco 1px;
         border-bottom: solid v.$blanco 1px;
         padding: .5rem;
-        font-family: 'raleway';
+        // @include m.font-jetbrains(auto, 400);
+        // @include m.font-raleway(auto, 400);
         
         & > div{
             display: grid;
+            min-width: 1.4rem;
             grid-template-columns: 1fr;
             grid-template-rows: 2fr 1fr;
             justify-items: end;
             align-items: center;
+            @include m.tablet{
+                min-width: 1.5rem;
+            }
+            @include m.desktopSmall{
+                min-width: 2rem;
+            }
+            @include m.desktop{
+                min-width: 2.2rem;
+            }
 
             & span[class*="number"] {
-                font-family: 'rajdhani';
-                font-weight: 400;
-                font-size: 1rem;
+                // @include m.font-jetbrains(auto, 400);
+                @include m.font-rajdhani(1.2rem, 400, auto);
                 @include m.tablet{
                     font-size: 1.4rem;
                 }
@@ -85,7 +97,8 @@
                 }
             }
             & span[class*="text"] {
-                font-family: 'raleway';
+                @include m.font-rajdhani(1.2rem, 400, auto);
+                // font-family: 'raleway';
                 font-size: .5rem;
                 justify-self: center;
                 @include m.tablet{
