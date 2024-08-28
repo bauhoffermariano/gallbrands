@@ -26,10 +26,10 @@ const options = {
             options: {
                 particles: {
                     number: {
-                        value: 30 // Valor para pantallas menores a 600px
+                        value: 50 // Valor para pantallas menores a 600px
                     },
                     size:{
-                        value:{min:10, max:30}
+                        value:{min:1, max:10}
                     },
                 }
             }
