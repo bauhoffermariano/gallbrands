@@ -166,7 +166,7 @@ let funcTimelinesDesktop = function (timelines) {
     )
     .from(aumentarVentas, { opacity: 0 })
     .to(flecha5, { strokeDashoffset: 0 })
-    .to(mindMapContainer,{y:"-10%"},"<") 
+    // .to(mindMapContainer,{y:"-10%"},"<") 
     .from(si3, { opacity: 0 }, "<50%")
     .from(estrategia, { opacity: 0 })
     .to(flecha6, { strokeDashoffset: 0 })
@@ -174,6 +174,7 @@ let funcTimelinesDesktop = function (timelines) {
     .from(agendaBig, { opacity: 0 })
     .from(agendaBigBg, { opacity: 0 }, "<")
     .to(flecha8, { strokeDashoffset: 0 })
+    .to(mindMapContainer,{y:"-10%"},"<") 
     .from(no3, { opacity: 0 }, "<10%")
     .to(mindMapContainer,{y:"-10%"},"<")
     .from(camino, { opacity: 0 })
@@ -188,7 +189,7 @@ let funcTimelinesDesktop = function (timelines) {
       },
       "<"
     )
-    .to(mindMapContainer,{y:"-30%"})
+    .to(mindMapContainer,{y:"-20%"})
     .to(flechaF1,{strokeDashoffset: 0},"<+4%")
     .to(flechaF2,{strokeDashoffset: 0},"<+8%")
     .to(flechaF3,{strokeDashoffset: 0},"<+12%")
@@ -211,7 +212,7 @@ mmMobile.add("(max-width: 601px)", () => {
       scrub: 1,
       // markers: true,
       pin: true,
-      pinspacing: true,
+      // pinspacing: true,
       start: "center 10%",
       end: "600% botom",
     },
@@ -225,7 +226,7 @@ mmTabletSmall.add("(min-width:601px) and (max-width: 768px)", () => {
     scrollTrigger: {
       trigger: "#heroContainer",
       scrub: true,
-      markers: true,
+      // markers: true,
       pin: true,
       start: "center 10%",
       end: "500% 10%",
@@ -240,10 +241,10 @@ mmDesktop.add("(min-width:1024px)", () => {
     scrollTrigger: {
       trigger: "#heroContainer",
       scrub: true,
-      markers: true,
+      // markers: true,
       pin: true,
-      start: "top 10%",
-      end: "1000% center",
+      start: "top 8%",
+      end: "1000% bottom",
     },
   });
 

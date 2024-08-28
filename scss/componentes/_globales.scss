@@ -4,6 +4,9 @@
 * {
   box-sizing: border-box;
 }
+.main__container{
+  position: relative;
+}
 body {
   width: 100vw;
   margin: 0;
@@ -34,11 +37,6 @@ section {
 .img__container {
   height: inherit;
   width: auto;
-// left: 0;
-// display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   overflow: visible;
 }
 
 .img__container img {
@@ -48,7 +46,7 @@ section {
   display: block;
 }
 
-.main__container{
-  width: 100vw;
-  position: relative;
-}
+// .main__container{
+//   width: 100vw;
+//   position: relative;
+// }

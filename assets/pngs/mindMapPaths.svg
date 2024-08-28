@@ -1,11 +1,10 @@
-
 <svg
    id="mindMap"
-   class= "mindMap"
-   viewBox="0 0 658.0117 876.26528"
+   class="mindMap"
+   viewBox="0 0 432979.39 767840.83"
    version="1.1"
-   width="auto"
-   height="auto"
+   width="432979.41"
+   height="767840.81"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
@@ -241,7 +240,7 @@
        y="701.46997"
        width="16.190001"
        height="0.34"
-       transform="rotate(-0.07,539.76228,745.17722)"
+       transform="rotate(-0.07,539.76228,745.17724)"
        id="rect64" />
     <g
        id="g64">
@@ -429,7 +428,7 @@
      id="flechaF1" />
   <path
      style="font-variation-settings:'wght' 700;fill:none;fill-opacity:1;stroke:#cccccc;stroke-width:1.41476;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-     d="m 227.08698,545.99736 -1.53214,-0.15097 v -2.16417 l 2.16678,2.41176 -2.16678,2.43187 v -2.69314 H 93.825038 V 401.45987"
+     d="M 93.825038,401.45987 V 545.83271 H 225.55484 v 2.69314 l 2.16678,-2.43187 -2.16678,-2.41176 v 2.16417 l 1.53214,0.15097"
      id="flecha8" />
   <path
      style="font-variation-settings:'wght' 700;fill:none;fill-opacity:1;stroke:#cccccc;stroke-width:1.75896;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"

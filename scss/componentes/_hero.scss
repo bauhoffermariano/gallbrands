@@ -2,8 +2,9 @@
 @use "mixins" as m;
 
 .hero {
+  position: relative;
   height: 180dvh;
-  margin: 0 auto;
+
   color: v.$blanco;
   padding-bottom: 6rem;
   overflow-y: hidden;
@@ -25,8 +26,11 @@
   }
   @include m.desktop {
     height: calc(100dvh - 6.5rem);
+
   }
   @include m.desktopBig {
+    @include m.centrarHorizontal;
+    width: 100%;
     height: calc(100dvh - 7rem);
   }
 
@@ -124,7 +128,7 @@
   }
   .mindMap {
     //ESTE MANEJA TODO PA
-    padding: 1rem;
+    padding: .5rem;
     width: auto;
     top: 0;
     left: 0;
@@ -132,14 +136,18 @@
     min-height: 400px;
 
     @include m.desktop {
+      padding-right: 1rem;
       width: 100%;
       // margin: 1rem 0;
-      top: -10%;
+      top: -20%;
       left: 0;
       position: absolute;
       height: 170%;
     }
     @include m.desktopBig{
+      padding-left: 1rem ;
+      padding-right: 2rem;
+
       width: 100%;
     }
   }

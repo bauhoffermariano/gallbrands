@@ -3,6 +3,6 @@
 .bg__hero{
     position: absolute;
     inset: 0;
-    z-index: -1;
+    z-index: -1000;
     filter: blur(15px);
 }

@@ -38,21 +38,6 @@
     .cta__logo{
         height:70%;
         width: 4rem;
-        // transform: scale(1.3);
-        // flex-grow: 0.1  ;
-
-        // @include m.tablet{
-        //     width: 4rem;
-        // }
-        // @include m.desktopSmall{
-        //     width: 4rem;
-        // }
-        // @include m.desktop{
-        //     width: 4rem;
-        // }
-        // @include m.desktopBig{
-        //     transform: scale(1.5);
-        // }
     }
     
 
@@ -86,7 +71,6 @@
             }
 
             & span[class*="number"] {
-                // @include m.font-jetbrains(auto, 400);
                 @include m.font-rajdhani(1.2rem, 400, auto);
                 @include m.tablet{
                     font-size: 1.4rem;
@@ -100,7 +84,6 @@
             }
             & span[class*="text"] {
                 @include m.font-rajdhani(1.2rem, 400, auto);
-                // font-family: 'raleway';
                 font-size: .5rem;
                 justify-self: center;
                 @include m.tablet{
