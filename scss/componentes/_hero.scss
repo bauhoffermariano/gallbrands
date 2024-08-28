@@ -43,12 +43,7 @@
         width: 8rem;
         height: 2.5rem;
       }
-      @include m.desktopSmall{
-        @include m.flexbox(center, flex-start, column) {
-          gap: clamp(3rem, -7rem + 12.5vw, 8rem);
-    
-        }
-      }
+
       @include m.desktop{
         width: 9rem;
         height: 3rem;
@@ -61,7 +56,6 @@
     }
 
     .scrolldown{
-
       background-color: transparent;
       border: white solid 1px;
       color: v.$blanco;
@@ -71,13 +65,6 @@
       } 
     }
 
-    @include m.tabletSmall {
-      // .cta__btn {
-      //   // align-self: center;
-      //   // transform: scale(1.2);
-      //   // transform-origin: left;
-      // }
-    }
     @include m.desktopSmall {
       width: 50%;
       .cta__btn{
