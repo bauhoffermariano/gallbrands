@@ -1,7 +1,7 @@
 const options = {
     particles:{
         number:{
-            value:50
+            value:100
         },
         color: "#003399",
         links:{
@@ -19,7 +19,22 @@ const options = {
             value: 0.8
         }
      
-    }
+    },
+    responsive: [
+        {
+            breakpoint: 600,
+            options: {
+                particles: {
+                    number: {
+                        value: 30 // Valor para pantallas menores a 600px
+                    },
+                    size:{
+                        value:{min:10, max:30}
+                    },
+                }
+            }
+        }
+    ]
 }
 
 tsParticles.load("bgHero", options)
