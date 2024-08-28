@@ -597,11 +597,28 @@ section {
     height: 2.5rem;
   }
 }
+@media (min-width: 1280px) {
+  .hero .hero__text .cta__btn {
+    width: 9rem;
+    height: 3rem;
+  }
+}
+@media (min-width: 1280px) {
+  .hero .hero__text .cta__btn {
+    width: 11rem;
+    height: 3.5rem;
+  }
+}
 .hero .hero__text .scrolldown {
   background-color: transparent;
   border: white solid 1px;
   color: #cccccc;
   align-self: flex-end;
+}
+@media (min-width: 1024px) {
+  .hero .hero__text .scrolldown {
+    display: none;
+  }
 }
 @media (min-width: 1024px) {
   .hero .hero__text {

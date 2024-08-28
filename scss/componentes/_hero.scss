@@ -45,6 +45,14 @@
         width: 8rem;
         height: 2.5rem;
       }
+      @include m.desktop{
+        width: 9rem;
+        height: 3rem;
+      }
+      @include m.desktop{
+        width: 11rem;
+        height: 3.5rem;
+      }
 
     }
 
@@ -53,7 +61,10 @@
       background-color: transparent;
       border: white solid 1px;
       color: v.$blanco;
-      align-self: flex-end; 
+      align-self: flex-end;
+      @include m.desktopSmall{
+        display: none;
+      } 
     }
 
     @include m.tabletSmall {
@@ -115,7 +126,6 @@
 
   .mindMap {
     //ESTE MANEJA TODO PA
-    // margin: clamp(1rem, 0.286rem + 3.571vw, 2rem);
     padding: 1rem;
     width: auto;
     top: 0;
