@@ -1,5 +1,6 @@
 const heroContainer = document.getElementById("heroContainer");
 const mindMapContainer = document.getElementById("mindMap");
+const scrollDownIcon = document.getElementById("scrollDownIcon")
 
 //texto
 const dueño = document.getElementById("owner");
@@ -70,7 +71,8 @@ let mmTabletSmall = gsap.matchMedia();
 
 let funcTimelines = function (timelines) {
   timelines
-    .from(dueño, { opacity: 0 })
+    .to(scrollDownIcon,{y:-500})
+    .from(dueño, { opacity: 0 },"<")
     .to(flecha1, { strokeDashoffset: 0 })
     .from(no1, { opacity: 0 }, "<50%")
     .from(agenda, { opacity: 0 })
@@ -200,26 +202,27 @@ let funcTimelinesDesktop = function (timelines) {
 mmMobile.add("(max-width: 601px)", () => {
   let tlMindmap = gsap.timeline({
     scrollTrigger: {
-      trigger:"#heroAni",
-      scrub: true,
-      markers: true,
+      trigger:"#heroContainer",
+      scrub: 1,
+      // markers: true,
       pin: true,
-      start: "-10% 10%",
-      end: "500% 99.5%",
+      pinspacing: true,
+      start: "center 10%",
+      end: "600% botom",
     },
+    
   });
-
   funcTimelines(tlMindmap)
 });
 
 mmTabletSmall.add("(min-width:601px) and (max-width: 768px)", () => {
   let tlMindmapTabletSmall = gsap.timeline({
     scrollTrigger: {
-      trigger: heroContainer,
+      trigger: "#heroContainer",
       scrub: true,
-      // markers: true,
+      markers: true,
       pin: true,
-      start: "25% top",
+      start: "center 10%",
       end: "500% 10%",
     },
   });
@@ -227,17 +230,17 @@ mmTabletSmall.add("(min-width:601px) and (max-width: 768px)", () => {
   funcTimelines(tlMindmapTabletSmall)
 });
 
-mmDesktop.add("(min-width:1024px)", () => {
-  let tlMindmapDesktop = gsap.timeline({
-    scrollTrigger: {
-      trigger: ".main__container",
-      scrub: true,
-      // markers: true,
-      pin: true,
-      start: "top top",
-      end: "1000% center",
-    },
-  });
+// mmDesktop.add("(min-width:1024px)", () => {
+//   let tlMindmapDesktop = gsap.timeline({
+//     scrollTrigger: {
+//       trigger: ".main__container",
+//       scrub: true,
+//       // markers: true,
+//       pin: true,
+//       start: "top top",
+//       end: "1000% center",
+//     },
+//   });
 
-  funcTimelinesDesktop(tlMindmapDesktop)
-});
+//   funcTimelinesDesktop(tlMindmapDesktop)
+// });

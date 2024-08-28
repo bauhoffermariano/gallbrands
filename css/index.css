@@ -538,7 +538,7 @@ section {
 }
 
 .hero {
-  height: auto;
+  height: 180dvh;
   margin: 0 auto;
   color: #cccccc;
   padding-bottom: 6rem;
@@ -631,6 +631,7 @@ section {
   }
 }
 .hero .hero__ani {
+  min-height: 400px;
   position: relative;
   width: 100%;
   backdrop-filter: blur(50px);
@@ -654,6 +655,7 @@ section {
   top: 0;
   left: 0;
   overflow: visible;
+  min-height: 400px;
 }
 @media (min-width: 1280px) {
   .hero .mindMap {
