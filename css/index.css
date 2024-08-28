@@ -675,7 +675,16 @@ section {
 }
 @media (min-width: 1280px) {
   .hero .hero__ani {
-    height: 60%;
+    height: 80%;
+  }
+}
+.hero .scrolldowndesk {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .hero .scrolldowndesk {
+    display: block;
+    position: absolute;
   }
 }
 .hero .mindMap {
@@ -688,8 +697,8 @@ section {
 }
 @media (min-width: 1280px) {
   .hero .mindMap {
-    margin: 1rem 0;
-    top: 0;
+    width: 100%;
+    top: -10%;
     left: 0;
     position: absolute;
     height: 170%;

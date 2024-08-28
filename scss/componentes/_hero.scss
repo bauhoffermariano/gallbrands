@@ -105,16 +105,23 @@
     border-radius: 0.2rem 1rem 0.2rem 1rem;
     overflow: hidden;
 
+
     @include m.flexbox(center, center, row) {
     }
     @include m.desktopSmall{
       width: 50%;
     }
     @include m.desktop {
-      height: 60%;
+      height: 80%;
     }
   }
-
+  .scrolldowndesk{
+    display: none;
+    @include m.desktopSmall{
+      display: block;
+      position: absolute;
+    }
+  }
   .mindMap {
     //ESTE MANEJA TODO PA
     padding: 1rem;
@@ -125,8 +132,9 @@
     min-height: 400px;
 
     @include m.desktop {
-      margin: 1rem 0;
-      top: 0;
+      width: 100%;
+      // margin: 1rem 0;
+      top: -10%;
       left: 0;
       position: absolute;
       height: 170%;
