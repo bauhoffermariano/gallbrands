@@ -27,7 +27,7 @@
 
     }
     @include m.desktop{
-        height: 6.5rem;
+        height: 5rem;
         justify-content: center;
         gap: 5rem;
     }
@@ -62,12 +62,14 @@
         @include m.flexbox(center, center, row){}
         gap: .2rem;
         color: v.$blanco;
-
         border-top: solid v.$blanco 1px;
         border-bottom: solid v.$blanco 1px;
         padding: .5rem;
-        // @include m.font-jetbrains(auto, 400);
-        // @include m.font-raleway(auto, 400);
+
+        @include m.desktop{
+            height: 4rem;
+        }
+
         
         & > div{
             display: grid;
@@ -78,9 +80,6 @@
             align-items: center;
             @include m.tablet{
                 min-width: 1.5rem;
-            }
-            @include m.desktopSmall{
-                min-width: 2rem;
             }
             @include m.desktop{
                 min-width: 2.2rem;
@@ -93,6 +92,9 @@
                     font-size: 1.4rem;
                 }
                 @include desktopSmall{
+                    font-size: 1.9rem;
+                }
+                @include desktop{
                     font-size: 2rem;
                 }
             }

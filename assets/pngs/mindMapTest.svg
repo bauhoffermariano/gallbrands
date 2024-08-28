@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    id="mindMap"
-   class= "mindMap"
+   class="mindMap"
    viewBox="0 0 660.76867 875.51828"
    version="1.1"
    width="660.76868"
@@ -241,7 +241,7 @@
        y="701.46997"
        width="16.190001"
        height="0.34"
-       transform="rotate(-0.07,539.76228,745.17696)"
+       transform="rotate(-0.07,539.76228,745.17698)"
        id="rect64" />
     <g
        id="g64">
@@ -364,11 +364,11 @@
      id="agendaBig"
      x="390.48438"
      y="289.44043"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:Raleway;-inkscape-font-specification:'Raleway, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;fill:#000000;fill-opacity:1"><tspan
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:Raleway;-inkscape-font-specification:'Raleway, @wght=900';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 900;fill:#000000;fill-opacity:1"><tspan
        x="390.48438"
        y="289.44043"
        id="tspan5"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:Raleway;-inkscape-font-specification:'Raleway, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;fill:#000000;fill-opacity:1">AGENDÁ UNA LLAMADA</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:Raleway;-inkscape-font-specification:'Raleway, @wght=900';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 900;fill:#000000;fill-opacity:1">AGENDÁ UNA LLAMADA</tspan></text>
   <text
      class="cls-6"
      id="estrategia"

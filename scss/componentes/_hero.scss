@@ -130,7 +130,9 @@
       left: 0;
       position: absolute;
       height: 170%;
-      @include m.centrarHorizontal();
+    }
+    @include m.desktopBig{
+      width: 100%;
     }
   }
 }
