@@ -605,6 +605,7 @@ section {
 }
 @media (min-width: 1024px) {
   .hero .hero__text {
+    width: 50%;
     margin-top: 0;
   }
   .hero .hero__text .cta__btn {
@@ -643,6 +644,11 @@ section {
   justify-content: center;
   align-items: center;
   flex-direction: row;
+}
+@media (min-width: 1024px) {
+  .hero .hero__ani {
+    width: 50%;
+  }
 }
 @media (min-width: 1280px) {
   .hero .hero__ani {
