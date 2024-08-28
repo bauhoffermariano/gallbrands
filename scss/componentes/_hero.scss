@@ -6,6 +6,7 @@
   margin: 0 auto;
   color: v.$blanco;
   padding-bottom: 6rem;
+  overflow-y: hidden;
   @include m.font-raleway(1rem, 400, normal);
 
   // box-shadow: v.$blancoTransparent2 0px 1px 1px 0px inset, v.$blancoTransparent2 0px 50px 100px -20px, v.$blancoTransparent2 0px 30px 60px -50px;
@@ -33,9 +34,6 @@
     position: relative;
     height: 100dvh;
     @include m.flexbox(space-evenly, flex-start, column) {
-      // margin-top: clamp(3rem, 0.857rem + 10.714vw, 6rem);
-      // gap: clamp(1.5rem, 0.429rem + 5.357vw, 3rem);
-      // gap: 5rem;
     }
     .cta__btn { 
       width: 7.5rem;
@@ -45,11 +43,17 @@
         width: 8rem;
         height: 2.5rem;
       }
+      @include m.desktopSmall{
+        @include m.flexbox(center, flex-start, column) {
+          gap: clamp(3rem, -7rem + 12.5vw, 8rem);
+    
+        }
+      }
       @include m.desktop{
         width: 9rem;
         height: 3rem;
       }
-      @include m.desktop{
+      @include m.desktopBig{
         width: 11rem;
         height: 3.5rem;
       }

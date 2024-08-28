@@ -542,6 +542,7 @@ section {
   margin: 0 auto;
   color: #cccccc;
   padding-bottom: 6rem;
+  overflow-y: hidden;
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -597,13 +598,22 @@ section {
     height: 2.5rem;
   }
 }
+@media (min-width: 1024px) {
+  .hero .hero__text .cta__btn {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: clamp(3rem, -7rem + 12.5vw, 8rem);
+  }
+}
 @media (min-width: 1280px) {
   .hero .hero__text .cta__btn {
     width: 9rem;
     height: 3rem;
   }
 }
-@media (min-width: 1280px) {
+@media (min-width: 1440px) {
   .hero .hero__text .cta__btn {
     width: 11rem;
     height: 3.5rem;
